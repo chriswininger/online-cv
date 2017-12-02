@@ -37,3 +37,13 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+
+# exclude:
+#    - Gemfile
+#    - Gemfile.lock
+#    - node_modules
+#    - vendor/bundle/
+#    - vendor/cache/
+#    - vendor/gems/
+#    - vendor/ruby/
+
