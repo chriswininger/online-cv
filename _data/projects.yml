@@ -1,24 +1,18 @@
 - intro:
-  description: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+  description: ''
 
 - project:
-  title: Velocity
-  link: "#hook"
-  tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Fong Phone
+  link: 'https://www.fongphone.com'
+  tagline: 'A synthesizer in your pocket intended for performance art, sound scapes, and annoying pets. Written in Cordova with a non-traiditonal UX the app is available on IOS and Android'
+
 - project:
-  title: DevStudio
-  link: "#"
-  tagline: "A responsive website template designed to help web developers/designers market their services."
+  title: Every Picture Tells a Story
+  link: 'https://youtu.be/65TQ1-O7n3c'
+  tagline: 'A gallery gallery piece written in NodeJS and targeting POSIX this application converts images to ASCII art containing fragments of text in real time, presenting the viewer with an interactive mirror of words'
+
 - project:
-  title: Tempo
-  link: "#"
-  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-- project:
-  title: Atom
-  link: "#"
-  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-- project:
-  title: Delta
-  link: "#"
-  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Call and Response
+  link: 'https://www.wegotrats.com/call-and-response/'
+  tagline: 'A gallery work I collaborated on with fellow dev/artists Ainsley Wagoner and Andrew Allred. Call and Response leverages Electron, the Web Audio API, some fun fractal analysis, and good old CSS to present a moving field of colored dots that participants interact with my speaking, singing, and clapping'
+
