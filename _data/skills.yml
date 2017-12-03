@@ -1,18 +1,30 @@
 - skill:
-  name: Python & Django
+  name: NodeJS and JavaScript
   level: 98%
+
 - skill:
-  name: Javascript & jQuery
-  level: 98%
+  name: HTML & CSS
+  level: 90%
+
+- skill:
+  name: React
+  level: 80%
+
+- skill:
+  name: Backbone
+  level: 80%
+
 - skill:
   name: Angular
-  level: 98%
+  level: 65%
+
 - skill:
-  name: HTML5 & CSS
-  level: 95%
+  name: C#.Net / MVC
+  level: 80%
 - skill:
   name: Ruby on Rails
-  level: 85%
+  level: 45%
+
 - skill:
-  name: Sketch & Photoshop
-  level: 60%
+  name: Gimp & Photoshop
+  level: 30%
