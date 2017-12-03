@@ -1,6 +1,6 @@
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
+url: 'https://www.chriswininger.com'
 baseurl: '/online-cv' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -11,21 +11,18 @@ baseurl: '/online-cv' #change it according to your repository name
 #style: styles-6
 
 #Profile information
-name: Alan Doe
+name: Chris Wininger
 tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'Christopher Wininger has over ten years of experience developing software solutions. He enjoys learning and is constantly seeking to improve his process by evaluating the newest technologies and methods for application design. He flourishes in a team setting and has experience working with large code bases through the duration of the software life cycle. Christopher greatly values well managed, maintainable code. He strives to bring consistency and a well planned structure to all of his projects.'
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+email: chris.wininger@gmail.com
+#phone: 012 345 6789
+website: www.wegotrats.com #do not add http://
+linkedin: christopher-wininger-dev
+github: chriswininger
+twitter: '@remembersonly'
 #Update all the sections by editing the files inside _data folder.
 
 # Tracker
