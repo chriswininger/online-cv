@@ -21,10 +21,55 @@
 - skill:
   name: C#.Net / MVC
   level: 80%
+
 - skill:
-  name: Ruby on Rails
+  name: C/C++
   level: 45%
 
 - skill:
-  name: Gimp & Photoshop
+  name: Ruby on Rails
+  level: 40%
+
+- skill:
+  name: Scheme
   level: 30%
+
+- skill:
+  name: MongoDB
+  level: 80%
+
+- skill:
+  name: SQL (T-SQL, MySQL)
+  level: 70%
+
+- skill:
+  name: Jenkins
+  level: 30%
+
+- skill:
+  name: Selenium/Nightwatch
+  level: 90%
+
+- skill:
+  name: Jasmine
+  level: 90%
+
+- skill:
+  name: Docker
+  level: 60%
+
+- skill:
+  name: Share Point
+  level: 50%
+
+- skill:
+  name: Apache
+  level: 60%
+
+- skill:
+  name: nginx
+  level: 60%
+
+- skill:
+  name: Linux Admin
+  level: 70%

@@ -1,26 +1,26 @@
 - experience:
   role: Lead Developer
   time: 2013 - Present
-  company: airSpring Software, Lexington KY
-  details: "Chris, worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag and drop interface. Chris lead development efforts in the back-end web services developing and maintaining serveral NodeJS applications. His role began as senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
+  company: <a href="https://airspringsoftware.com/">airSpring Software</a>, Lexington KY
+  details: "Chris, worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag and drop interface. Chris lead development efforts on back-end web services, developing and maintaining serveral NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
   acheivments:
      - title: 'Offline Storage:'
-       text: 'Designed and implemented storage and synchronization mechanism allowing application developed on the airSpring platform to function off line (makes use of Application Cache, LocalStorage, IndexDB and Socket.io)'
+       text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
 
      - title: 'Database Storage:'
-       text: 'Worked persistence mechanisms, helping to create and implement the architecture used to track changes, serialize and transmit deltas to the server, and convert requests into MongoDB operations.'
+       text: 'Worked on persistence mechanisms, helping to create and implement the architecture used to track changes, serialize and transmit deltas to the server, and convert requests into MongoDB operations'
 
      - title: 'Multi-Server Deployment Process:'
-       text: 'Helped develop application packaging and deployment processes including server pool management functionality involving server to server communication.'
+       text: 'Helped develop application packaging and deployment processes including server pool management functionality involving server to server communication'
 
      - title: 'Process Management:'
        text: 'Created a module for managing an arbitrary number of child processes communicating over ZeroMQ to support isolation of blocking tasks'      
 
-     - title: 'API Design Features'
-       text: 'Implemented both back-end and initial user interface for airSpring’s Web API Builder allowing customers to design web APIs, supplying code or leveraging prebuilt actions'
+     - title: 'API Design Features:'
+       text: 'Implemented both the back-end and initial user interface for airSpring’s Web API Builder allowing customers to design web APIs, which leverage prebuilt actions as well as allow customers to supply custom functions'
 
      - title: 'Authentication and Access Control:'
-       text: 'Developed much of the authentication and access control code handling integrations for SAML, LDAP, and google Auth (also handles token based auth for api end points)'
+       text: 'Developed much of the authentication and access control code handling integrations for SAML, LDAP, and Google Auth (also handles token based auth for api end points)'
 
      - title: 'Maintenance and Bug Fixing:'
        text: 'Resolved concurrency issues and race conditions in highly asynchronous multi-process distributed code paths'
@@ -29,7 +29,7 @@
        text: 'Optimized hot JavaScript code paths and identified memory leaks in long running JavaScript applications'
 
      - title: 'Worked Booth at the BoxWorks Conference'
-       text: 'Spoke with potential customers and strategic partners, performing demos and feilding questions'
+       text: 'Spoke with potential customers and strategic partners, giving demos and feilding questions'
 
      - title: 'Assisted with Hiring:'
        text: 'Conducted technical interviews and participated in selection of new developers'
@@ -43,13 +43,13 @@
 - experience:
   role: NodeJS Consultant
   time: 2017 - Present
-  company: '<a href="https://infinite.industries/">Infinite Industries</a>'
+  company: '<a href="https://infinite.industries/">Infinite Industries</a>, Lexington KY'
   details: 'Provided free consultation and development work to a local non-profit building a platform for the dissemination of cultural events' 
 
 - experience:
   role: Senior Developer
   time: 2011 - November 2013
-  company: Aspect Software, Chelmsford, MA
+  company: '<a href="https://www.aspect.com/">Aspect Software</a>, Chelmsford, MA'
   details: 'Worked closely with a client in the health care sector to update and implement software solutions for the finance department, participated in regular scrums and meetings with members of the development team
      Created custom web applications to meet the needs of the client, updated and maintained existing applications'
   acheivments:
@@ -57,31 +57,31 @@
      - title: 'Registration Application <i>(.Net web application used to handle registration in training courses)</i>:'
        text: 'Made extensive updates to the database schema, created administrative modules, and implemented changes to the user interface to improve performance and user experience; Maintained the application, fielding bugs and performing upgrades'
 
-     - title: 'Control Documents Application <i>(MVC web application used to track supplies as they enter the dock and move through processing queues)</i>'
-     - text: 'Redesigned the legacy ASP .Net 2.0 application as an MVC 3.0 application; Added new functionality and corrected bugs; Maintained SSIS packages used to integrate and merge data extracted from proprietary systems; Improved user experience by implementing client side logic including the use of AJAX calls'
+     - title: 'Control Documents Application <i>(MVC web application used to track supplies as they enter the dock and move through processing queues)</i>:'
+       text: 'Redesigned the legacy ASP .Net 2.0 application as an MVC 3.0 application; Added new functionality and corrected bugs; Maintained SSIS packages used to integrate and merge data extracted from proprietary systems; Improved user experience by implementing client side logic including the use of AJAX calls'
 
-     - title: 'RVU Application <i>(Used to track and adjust Relative Value Units against budget and expense data)</i>'
+     - title: 'RVU Application <i>(Used to track and adjust Relative Value Units against budget and expense data)</i>:'
        text: 'Automated data imports for the system, replacing a manual processes previously carried out by IT; Rewrote portions of the application to integrate better with other Aspect products used by the client; Created administrative modules to allow the client staff to adjust application behavior and user access; Enhanced functionality, adding new new calculations and changes to the visual presentation of data'
 
-     - title: 'Ask A Question Application <i>(Used by staff on the clients network to ask and receive responses to questions)</i>'
+     - title: 'Ask A Question Application <i>(Used by staff on the clients network to ask and receive responses to questions)</i>:'
        text: 'Created tables and interfaces to implement tiered access restrictions on the system; Corrected bugs and improved interaction with the SMTP server used to deliver notifications and updates'
 
-     - title: 'Capital Request SharePoint Feature <i>(A SharePoint 2007 solution used to handle Capital Equipment acquisition requests)</i>'
+     - title: 'Capital Request SharePoint Feature <i>(A SharePoint 2007 solution used to handle Capital Equipment acquisition requests)</i>:'
        text: 'Created an InfoPath form with multiple views and code behind; Wrote web services to facilitate communication with other Aspect products; Designed web features to create the necessary lists, content types, site columns, and associations on the clients SharePoint site; Created a process to convert legacy data to the new format; Created Nintex work flows to handle item level security and deliver e-mail update'
      
-     - title: 'Budget Exception and Budget Adjustment Forms <i>(SharePoint 2007 web feature used to submit information regarding exceptions to the budget)</i>'
+     - title: 'Budget Exception and Budget Adjustment Forms <i>(SharePoint 2007 web feature used to submit information regarding exceptions to the budget)</i>:'
        text: 'Created InfoPath form and necessary code behind; Created web feature, web services, and implemented work flows using Nintex workflows'
 
-     - title: 'Position Management Proof Of Concept'
+     - title: 'Position Management Proof Of Concept:'
        text: 'Worked with another program to define the technologies to be used for a product rewrite of an application used to deal with staffing and meta data regarding job positions; Created a proof of concept for the rewrite making use of Microsoft MVC 4, Microsoft Web API, Ninject (dependency injection for .net), Enterprise framework, JQuery, and KnockoutJS'
 
-     - title: 'Keeping Clients Happy'
+     - title: 'Keeping Clients Happy:'
        text: 'Participated in regular meetings with the client and responded to feedback and bug reports from the field.'
 
 - experience:
   role: Programmer
   time: 'November 2008 - August 2011'
-  company: The Legislative Research Commission, Frankfort KY
+  company: '<a href="http://www.lrc.ky.gov/">The Legislative Research Commission</a>, Frankfort KY'
   acheivments:
      - text: 'Redesigned and implemented software for the intake and processing of phone messages while maintaining legacy support'
      - text: 'Worked with a team on the design, implementation, testing, and deployment of a tiered system for the drafting and management of bills as they move through the legislative process'
@@ -99,7 +99,7 @@
 - experience:
   role: Test Coordinator/Build Specialist
   time: 'January 2008 – October 2008'
-  company: Smart IT (Contracted To Unisys), Indianapolis IN
+  company: '<a href="https://getsmarterit.com/">Smart IT (Contracted To Unisys)</a>, Indianapolis IN'
   acheivments:
      - text: 'Managed code for a modular .Net application designed to handle intake, processing, storage and retrieval of data for the child welfare system in the state of Indiana'
      - text: 'Worked with Microsoft Team Foundation Server to handled the migration and building of code as it moved throughout the testing cycle'
@@ -109,7 +109,7 @@
 - experience:
   role: Web Designer
   time: '2002 - 2003'
-  company: The Studio by Mark A Rice, Indianapolis IN
+  company: '<a href="https://www.facebook.com/The-Studio-by-Mark-A-Rice-108960419127126">The Studio by Mark A Rice</a>, Indianapolis IN'
   acheivments:
      - text: 'Performed administrative duties such as purchasing the domain name and setting up the hosting service'
      - text: 'Designed and built a website to advertise services of the studio'

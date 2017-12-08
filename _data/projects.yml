@@ -14,5 +14,9 @@
 - project:
   title: Call and Response
   link: 'https://www.wegotrats.com/call-and-response/'
-  tagline: 'A gallery work I collaborated on with fellow dev/artists Ainsley Wagoner and Andrew Allred. Call and Response leverages Electron, the Web Audio API, some fun fractal analysis, and good old CSS to present a moving field of colored dots that participants interact with my speaking, singing, and clapping'
+  tagline: 'A gallery work I collaborated on with fellow developers/artists Ainsley Wagoner and Andrew Allred. Call and Response leverages Electron, the Web Audio API, some fun fractal analysis, and good old CSS to present a moving field of colored dots that participants interact with by speaking, singing, and clapping'
 
+- project:
+  title: Fong Tron
+  link: 'https://youtu.be/LXOyiwt92iI'
+  tagline: 'A a multi-user interactive sound scape presented at The Living Arts and Science Center, based on the Fong Phone application. The user interface from my Phong Fone app was wrapped by a web socket layer and served to touch devices allowing each user to control different aspects of the sound and visual dispaly on a large screen'
