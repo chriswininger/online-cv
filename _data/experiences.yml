@@ -2,7 +2,7 @@
   role: Lead Developer
   time: 2013 - Present
   company: <a href="https://airspringsoftware.com/">airSpring Software</a>, Lexington KY
-  details: "Chris, worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag and drop interface. Chris lead development efforts on back-end web services, developing and maintaining serveral NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
+  details: "Chris, worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag and drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
   acheivments:
      - title: 'Offline Storage:'
        text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
@@ -17,7 +17,7 @@
        text: 'Created a module for managing an arbitrary number of child processes communicating over ZeroMQ to support isolation of blocking tasks'      
 
      - title: 'API Design Features:'
-       text: 'Implemented both the back-end and initial user interface for airSpring’s Web API Builder allowing customers to design web APIs, which leverage prebuilt actions as well as allow customers to supply custom functions'
+       text: 'Implemented both the back-end and initial user interface for airSpring’s Web API Builder allowing customers to design web APIs, which leverage pre-built actions as well as allow customers to supply custom functions'
 
      - title: 'Authentication and Access Control:'
        text: 'Developed much of the authentication and access control code handling integrations for SAML, LDAP, and Google Auth (also handles token based auth for api end points)'
@@ -37,7 +37,7 @@
      - title: 'Training:'
        text: 'Gave technical talks and feature demonstrations to team members and assisted in bringing new developers up to speed with code base'
 
-     - title: 'Documenation:'
+     - title: 'Documentation:'
        text: 'Provided internal documentation for the features and processes I worked on'
 
 - experience:
