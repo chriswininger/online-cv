@@ -9,10 +9,20 @@
 
       <div class="upper-row">
         <h3 class="job-title">{{ experience.role }}</h3>
+        {% if jekyll.environment == 'print-version' %}
+        <span class="time"> {{ experience.time }}</span>
+        {% else %}
         <div class="time">{{ experience.time }}</div>
+        {% endif %}
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+    <div class="company">
+      {% if jekyll.environment == 'print-version' %}
+      <h5 class="company-name">{{ experience.company }}</h5>, {{ experience.location }}
+      {% else %}
+      <a href="{{ experience.link }}">{{ experience.company }}</a>, {{ experience.location }}
+      {% endif %}
+	  </div>
 
     </div><!--//meta-->
 

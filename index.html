@@ -6,9 +6,12 @@ layout: default
 {% include career-profile.html %}
             
 {% include experience.html %}
-            
+
 {% include projects.html %}
-            
+{% if jekyll.environment == 'print-version' %}
+{% include skills-print.html %}
+{% include education-print.html %}
+{% include certifications.html %}
+{% else %}
 {% include skills.html %}
-
-
+{% endif %}

@@ -1,7 +1,9 @@
 - experience:
   role: Lead Developer
   time: 2013 - Present
-  company: <a href="https://airspringsoftware.com/">airSpring Software</a>, Lexington KY
+  company: airSpring Software
+  location: Lexington KY
+  link: https://airspringsoftware.com/
   details: "Chris, worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag and drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
   acheivments:
      - title: 'Offline Storage:'
@@ -43,13 +45,17 @@
 - experience:
   role: NodeJS Consultant
   time: 2017 - Present
-  company: '<a href="https://infinite.industries/">Infinite Industries</a>, Lexington KY'
+  company: Infinite Industries
+  location: Lexington KY
+  link: https://infinite.industries/
   details: 'Provided free consultation and development work to a local non-profit building a platform for the dissemination of cultural events' 
 
 - experience:
   role: Senior Developer
   time: 2011 - November 2013
-  company: '<a href="https://www.aspect.com/">Aspect Software</a>, Chelmsford, MA'
+  company: Aspect Software
+  location: Chelmsford, MA
+  link: https://www.aspect.com/
   details: 'Worked closely with a client in the health care sector to update and implement software solutions for the finance department, participated in regular scrums and meetings with members of the development team
      Created custom web applications to meet the needs of the client, updated and maintained existing applications'
   acheivments:
@@ -81,7 +87,9 @@
 - experience:
   role: Programmer
   time: 'November 2008 - August 2011'
-  company: '<a href="http://www.lrc.ky.gov/">The Legislative Research Commission</a>, Frankfort KY'
+  company: The Legislative Research Commission
+  location: Frankfort KY
+  link: http://www.lrc.ky.gov/
   acheivments:
      - text: 'Redesigned and implemented software for the intake and processing of phone messages while maintaining legacy support'
      - text: 'Worked with a team on the design, implementation, testing, and deployment of a tiered system for the drafting and management of bills as they move through the legislative process'
@@ -99,7 +107,9 @@
 - experience:
   role: Test Coordinator/Build Specialist
   time: 'January 2008 – October 2008'
-  company: '<a href="https://getsmarterit.com/">Smart IT (Contracted To Unisys)</a>, Indianapolis IN'
+  company: Smart IT (Contracted To Unisys)
+  location: Indianapolis IN
+  link: https://getsmarterit.com/
   acheivments:
      - text: 'Managed code for a modular .Net application designed to handle intake, processing, storage and retrieval of data for the child welfare system in the state of Indiana'
      - text: 'Worked with Microsoft Team Foundation Server to handled the migration and building of code as it moved throughout the testing cycle'
@@ -109,7 +119,9 @@
 - experience:
   role: Web Designer
   time: '2002 - 2003'
-  company: '<a href="https://www.facebook.com/The-Studio-by-Mark-A-Rice-108960419127126">The Studio by Mark A Rice</a>, Indianapolis IN'
+  company: The Studio by Mark A Rice
+  location: Indianapolis IN
+  link: https://www.facebook.com/The-Studio-by-Mark-A-Rice-108960419127126
   acheivments:
      - text: 'Performed administrative duties such as purchasing the domain name and setting up the hosting service'
      - text: 'Designed and built a website to advertise services of the studio'

@@ -1,75 +1,94 @@
-- skill:
-  name: NodeJS and JavaScript
-  level: 98%
+- skillGroup:
+  name: Languages and Platforms
+  skills:
+    - skill:
+      name: NodeJS and JavaScript
+      level: 98
 
-- skill:
-  name: HTML & CSS
-  level: 90%
+    - skill:
+      name: HTML & CSS
+      level: 90
 
-- skill:
-  name: React
-  level: 80%
+    - skill:
+      name: React
+      level: 80
 
-- skill:
-  name: Backbone
-  level: 80%
+    - skill:
+      name: Backbone
+      level: 80
 
-- skill:
-  name: Angular
-  level: 65%
+    - skill:
+      name: Angular
+      level: 65
 
-- skill:
-  name: C#.Net / MVC
-  level: 80%
+    - skill:
+      name: C#.Net / MVC
+      level: 80
 
-- skill:
-  name: C/C++
-  level: 45%
+    - skill:
+      name: C/C++
+      level: 45
 
-- skill:
-  name: Ruby on Rails
-  level: 40%
+    - skill:
+      name: Ruby on Rails
+      level: 40
 
-- skill:
-  name: Scheme
-  level: 30%
+    - skill:
+      name: Scheme
+      level: 30
 
-- skill:
-  name: MongoDB
-  level: 80%
+- skillGroup:
+  name: Database Technologies
+  skills:
+    - skill:
+      name: MongoDB
+      level: 80
 
-- skill:
-  name: SQL (T-SQL, MySQL)
-  level: 70%
+    - skill:
+      name: SQL (T-SQL, MySQL)
+      level: 70
 
-- skill:
-  name: Jenkins
-  level: 30%
+- skillGroup:
+  name: Build Toos and Testing Frameworks
+  skills:
+    - skill:
+      name: Jenkins
+      level: 30
 
-- skill:
-  name: Selenium/Nightwatch
-  level: 90%
+    - skill:
+      name: Selenium/Nightwatch
+      level: 90
 
-- skill:
-  name: Jasmine
-  level: 90%
+    - skill:
+      name: Jasmine
+      level: 90
 
-- skill:
-  name: Docker
-  level: 60%
+- skillGroup:
+  name: CMS Platforms
+  skills:
+    - skill:
+      name: Share Point
+      level: 50
 
-- skill:
-  name: Share Point
-  level: 50%
+    - skill:
+      name: Box
+      level: 30
 
-- skill:
-  name: Apache
-  level: 60%
+- skillGroup:
+  name: Devops
+  skills:
+    - skill:
+      name: Apache
+      level: 60
 
-- skill:
-  name: nginx
-  level: 60%
+    - skill:
+      name: nginx
+      level: 60
 
-- skill:
-  name: Linux Admin
-  level: 70%
+    - skill:
+      name: Linux Admin
+      level: 70
+
+    - skill:
+      name: Docker
+      level: 60

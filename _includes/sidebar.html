@@ -1,9 +1,12 @@
 <!-- Use icons from fontawesome when you are adding new item in the contact list  -->
+{% if jekyll.environment == "print-version" %}
+<div class="sidebar-wrapper print-version">
+{% else %}
 <div class="sidebar-wrapper">
-
+{% endif %}
    <div class="profile-container">
 
-       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="profile picture" />
+       <img class="profile-img no-print" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="profile picture" />
 
        {% if site.name %}
        <h1 class="name">{{site.name}}</h1>
@@ -15,19 +18,41 @@
 
    </div><!--//profile-container-->
 
-   <div class="contact-container container-block">
+	{% if jekyll.environment == "print-version" %}
+	<div class="contact-container container-block no-screen">
+		<div class="contact-sub-container">
+			{% if site.address %}
+			<div class="address">
+				{{ site.address }}	
+			</div>
+			{% endif %}
+			
+
+			{% if site.email %}		
+			<div class="email">
+				{{ site.email }}
+			</div>
+			{% endif %}
+
+			{% if site.phone %}
+			<div class="phone">
+					{{ site.phone }}
+			</div>
+			{% endif %}
+		</div>
+	</div>
+	{% endif %}
+  
+	{% if jekyll.environment != "print-version" %}
+	<div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
 
-          {% if site.email %}
+           {% if site.email %}
            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
            {% endif %}
 
-           {% if site.phone %}
-           <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
-           {% endif %}
-
-           {% if site.website %}
-           <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+          {% if site.website %}
+           <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">blog: {{site.website}}</a></li>
            {% endif %}
 
            {% if site.linkedin %}
@@ -44,11 +69,13 @@
 
        </ul>
    </div><!--//contact-container-->
+	{% endif %}
 
+  {% if jekyll.environment != 'print-version' %}
   {% include education.html %}
   {% include certifications.html %}
   {% include language.html %}
   {% include interests.html %}
   {% include about.html %}
-
+  {% endif %}
 </div><!--//sidebar-wrapper-->
