@@ -17,12 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media (max-width: 767px) {
-    body{ 
-        padding: 0;
-    }
-}
-
 h1,
 h2,
 h3,
@@ -120,13 +114,22 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
-.sidebar-wrapper .education-container .item, .sidebar-wrapper .certification-container .item {
+.sidebar-wrapper .certification-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .certification-container .certification {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
 }
 .sidebar-wrapper .education-container .item:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .education-container .meta, .sidebar-wrapper .certification-container .certification {
+.sidebar-wrapper .education-container .meta {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   margin-bottom: 0px;
@@ -262,6 +265,16 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+/*
+    used for profile image
+*/
+.profile-img {
+  max-width: 100px;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -299,95 +312,71 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-
-/* 
-used for profile image
-*/
-.profile-img {
-  max-width: 100px;
-  margin-bottom: 15px;
-  border: 0px solid #fff;
-  border-radius: 100%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-
+/* print version management for pdf generation */
 /* Hide information shown on screen that is only for print version */
 @media screen {
-	.no-screen, .no-screen * {
-		display: none !important;
-	}
+  .no-screen,
+  .no-screen * {
+    display: none !important;
+  }
 }
-
 /* Hide information in print version that is only for screens */
 @media print {
-	.no-print, .no-print * {
-		display: none !important;
-	}
-
-	.sidebar-wrapper .profile-container {
-		width: 60%;
-		display: inline-block;
-		vertical-align: top;
-        padding-left: 0;
-	}
-
-	.sidebar-wrapper.print-version {
-		min-height: 0;
-	}
-
-	.sidebar-wrapper .profile-container .name, .sidebar-wrapper .profile-container .tagline {
-		text-align: left;
-	}
-
-	.contact-sub-container {
-		float: right;	
-	}
-
-	.contact-container.container-block.no-screen {
-		width: 40%;
-		display: inline-block;
-		text-align: left;
-		vertical-align: top;
-		padding-right: 0;
-	}
-
-	.skillset.print-version li.item {
-		margin: 0;
-	}
-
-    .main-wrapper {
-      padding-left: 0;
-    }
-
-    h5.company-name {
-      display: inline;
-    }
-
-    h3.job-title {
-      display: inline;
-    }
-
-    .main-wrapper span.time {
-      display: inline;
-    }
-
-    .education-container h2.container-block-title {
-      font-size: 20px;
-      font-weight: 500;
-    }
-
-    i.fa.fa-graduation-cap {
-      margin-right: 8px;
-      width: 30px;
-    }
-
-    .education-container h5.meta {
-      display: inline;
-    }
-
-    /* reduce space between sections*/
-    .main-wrapper .section {
-      margin-bottom: 30px;
-    }
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+  .sidebar-wrapper .profile-container {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0;
+  }
+  .sidebar-wrapper.print-version {
+    min-height: 0;
+  }
+  .sidebar-wrapper .profile-container .name,
+  .sidebar-wrapper .profile-container .tagline {
+    text-align: left;
+  }
+  .contact-sub-container {
+    float: right;
+  }
+  .contact-container.container-block.no-screen {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 0;
+  }
+  .skillset.print-version li.item {
+    margin: 0;
+  }
+  .main-wrapper {
+    padding-left: 0;
+  }
+  h5.company-name {
+    display: inline;
+  }
+  h3.job-title {
+    display: inline;
+  }
+  .main-wrapper span.time {
+    display: inline;
+  }
+  .education-container h2.container-block-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  i.fa.fa-graduation-cap {
+    margin-right: 8px;
+    width: 30px;
+  }
+  .education-container h5.meta {
+    display: inline;
+  }
+  /* reduce space between sections*/
+  .main-wrapper .section {
+    margin-bottom: 30px;
+  }
 }
