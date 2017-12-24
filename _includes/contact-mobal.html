@@ -1,0 +1,23 @@
+<div class="contact-container container-block no-desktop">\
+
+  <h2 class="section-title"><i class="fa fa-user"></i>Contact Info</h2>
+  <ul class="contact-list">
+
+    {% if site.twitter %}
+    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
+    {% endif %}
+
+    {% if site.linkedin %}
+    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/{{site.linkedin}}" target="_blank">{{site.linkedin}}</a></li>
+    {% endif %}
+
+    {% if site.github %}
+    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
+    {% endif %}
+
+
+    {% if site.website %}
+    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+    {% endif %}
+  </ul>
+</div>

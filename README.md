@@ -26,3 +26,7 @@ There are 6 color schemes available
 Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
 
 Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
+
+### Build Steps ###
+* After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
+* Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`

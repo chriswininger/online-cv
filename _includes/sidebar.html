@@ -2,7 +2,7 @@
 {% if jekyll.environment == "print-version" %}
 <div class="sidebar-wrapper print-version">
 {% else %}
-<div class="sidebar-wrapper">
+<div class="sidebar-wrapper no-mobal">
 {% endif %}
    <div class="profile-container">
 
@@ -17,59 +17,7 @@
        {% endif %}
 
    </div><!--//profile-container-->
-
-	{% if jekyll.environment == "print-version" %}
-	<div class="contact-container container-block no-screen">
-		<div class="contact-sub-container">
-			{% if site.address %}
-			<div class="address">
-				{{ site.address }}	
-			</div>
-			{% endif %}
-			
-
-			{% if site.email %}		
-			<div class="email">
-				{{ site.email }}
-			</div>
-			{% endif %}
-
-			{% if site.phone %}
-			<div class="phone">
-					{{ site.phone }}
-			</div>
-			{% endif %}
-		</div>
-	</div>
-	{% endif %}
-  
-	{% if jekyll.environment != "print-version" %}
-	<div class="contact-container container-block">
-       <ul class="list-unstyled contact-list">
-
-           {% if site.email %}
-           <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
-           {% endif %}
-
-          {% if site.website %}
-           <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">blog: {{site.website}}</a></li>
-           {% endif %}
-
-           {% if site.linkedin %}
-           <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/{{site.linkedin}}" target="_blank">{{site.linkedin}}</a></li>
-           {% endif %}
-
-           {% if site.github %}
-           <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
-           {% endif %}
-
-           {% if site.twitter %}
-           <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
-           {% endif %}
-
-       </ul>
-   </div><!--//contact-container-->
-	{% endif %}
+  {% include contact.html %}
 
   {% if jekyll.environment != 'print-version' %}
   {% include education.html %}

@@ -22,11 +22,6 @@
 
 
 }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-     
-    
-}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -49,15 +44,108 @@
     
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 1200px) {
+    .no-mobal {
+        display: none !important;
+    }
+}
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .no-desktop {
+        display: none !important;
+    }
 }
 
 
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-
+    
 }
 
+/* print version management for pdf generation */
+/* Hide information shown on screen that is only for print version */
+@media screen {
+    .no-screen, .no-screen * {
+        display: none !important;
+    }
+}
 
+/* Hide information in print version that is only for screens */
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    .sidebar-wrapper .profile-container {
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 0;
+    }
+
+    .sidebar-wrapper.print-version {
+        min-height: 0;
+    }
+
+    .sidebar-wrapper .profile-container .name, .sidebar-wrapper .profile-container .tagline {
+        text-align: left;
+    }
+
+    .contact-sub-container {
+        float: right;
+    }
+
+    .contact-container.container-block.no-screen {
+        width: 40%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding-right: 0;
+    }
+
+    .skillset.print-version li.item {
+        margin: 0;
+    }
+
+    .main-wrapper {
+        padding-left: 0;
+    }
+
+    h5.company-name {
+        display: inline;
+    }
+
+    h3.job-title {
+        display: inline;
+    }
+
+    .main-wrapper span.time {
+        display: inline;
+    }
+
+    .education-container h2.container-block-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    i.fa.fa-graduation-cap {
+        margin-right: 8px;
+        width: 30px;
+    }
+
+    .education-container h5.meta {
+        display: inline;
+    }
+
+    /* reduce space between sections*/
+    .main-wrapper .section {
+        margin-bottom: 30px;
+    }
+}

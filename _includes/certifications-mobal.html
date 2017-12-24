@@ -1,0 +1,15 @@
+{% if site.data.certifications %}
+<div class="certification-container container-block no-desktop">
+
+  <h2 class="section-title"><i class="fa fa-certificate"></i>Certifications</h2>
+
+  <ul>
+    {% for cert in site.data.certifications %}
+    <li class="item">
+      <h4 class="certification">{{ cert.name }}</h4>
+    </li><!--//item-->
+    {% endfor %}
+  </ul>
+
+</div><!--//certifications-container-->
+{% endif %}

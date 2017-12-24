@@ -104,6 +104,18 @@ p {
         margin-top: 0;
         margin-bottom: 5px;
     }
+    .certification-container {
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .certification {
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
+            margin-bottom: 0px;
+            margin-top: 0;
+        }
+    }
     .education-container {
         .item {
             margin-bottom: 15px;
@@ -199,11 +211,13 @@ p {
         margin-bottom: 0;
         font-weight: 500;
     }
-    .time {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: @text-grey;
+    .sidebar-wrapper {
+        .time {
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: @text-grey;
+        }
     }
     .company {
         margin-bottom: 10px;
@@ -264,4 +278,23 @@ p {
         color: @heart;
     }
     
+}
+
+/*
+    used for profile image
+*/
+.profile-img {
+    max-width: 100px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container.no-desktop {
+    li {
+        a {
+            margin-left: 0.5em;
+        }
+    }
 }

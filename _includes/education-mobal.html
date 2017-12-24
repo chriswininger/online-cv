@@ -1,16 +1,16 @@
 {% if site.data.educations %}
-<div class="education-container container-block">
+<div class="education-container container-block no-desktop">
 
-  <h2 class="container-block-title"><i class="fa fa-graduation-cap"></i>Education</h2>
+  <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
 
   <ul>
-  {% for education in site.data.educations %}
+    {% for education in site.data.educations %}
     <li class="item">
       <h4 class="degree">{{ education.degree }}</h4>
       <h5 class="meta">{{ education.university }}</h5>
       <span class="time"> {{ education.time }}</span>
     </li><!--//item-->
-  {% endfor %}
+    {% endfor %}
   </ul>
-</div><!--//education-container-->
+</div>
 {% endif %}
