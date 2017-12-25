@@ -2,7 +2,7 @@
 {% if jekyll.environment == "print-version" %}
 <div class="sidebar-wrapper print-version">
 {% else %}
-<div class="sidebar-wrapper no-mobal">
+<div class="sidebar-wrapper">
 {% endif %}
    <div class="profile-container">
 
@@ -17,13 +17,15 @@
        {% endif %}
 
    </div><!--//profile-container-->
-  {% include contact.html %}
+  <div class="no-small-mobal">
+    {% include contact.html %}
 
-  {% if jekyll.environment != 'print-version' %}
-  {% include education.html %}
-  {% include certifications.html %}
-  {% include language.html %}
-  {% include interests.html %}
-  {% include about.html %}
+    {% if jekyll.environment != 'print-version' %}
+    {% include education.html %}
+    {% include certifications.html %}
+    {% include language.html %}
+    {% include interests.html %}
+    {% include about.html %}
+  </div>
   {% endif %}
 </div><!--//sidebar-wrapper-->

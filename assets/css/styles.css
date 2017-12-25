@@ -295,6 +295,12 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  .no-small-mobal {
+    display: none !important;
+  }
+  .sidebar-wrapper {
+    min-height: 0px;
+  }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
