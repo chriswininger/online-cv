@@ -1,9 +1,5 @@
 <!-- Use icons from fontawesome when you are adding new item in the contact list  -->
-{% if jekyll.environment == "print-version" %}
-<div class="sidebar-wrapper print-version">
-{% else %}
 <div class="sidebar-wrapper">
-{% endif %}
    <div class="profile-container">
 
        <img class="profile-img no-print" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="profile picture" />
@@ -17,6 +13,30 @@
        {% endif %}
 
    </div><!--//profile-container-->
+
+  {% if jekyll.environment == "print-version" %}
+  <div class="contact-sub-container">
+    {% if site.address %}
+    <div class="address">
+      {{ site.address }}
+    </div>
+    {% endif %}
+
+
+    {% if site.email %}
+    <div class="email">
+      {{ site.email }}
+    </div>
+    {% endif %}
+
+    {% if site.phone %}
+    <div class="phone">
+      {{ site.phone }}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
   <div class="no-small-mobal">
     {% include contact.html %}
 
@@ -26,6 +46,6 @@
     {% include language.html %}
     {% include interests.html %}
     {% include about.html %}
+    {% endif %}
   </div>
-  {% endif %}
 </div><!--//sidebar-wrapper-->
