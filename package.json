@@ -1,0 +1,14 @@
+{
+  "name": "resume-pdf-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createResume": "buildScripts/phantomLoader.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phantomjs": "^2.1.7"
+  }
+}
