@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "createResume": "buildScripts/phantomLoader.js"
+    "startPrintVersion": "JEKYLL_ENV=print-version jekyll serve",
+    "outputResume": "phantomjs ./buildScripts/phantomLoader.js",
+    "createResume": "{ npm run startPrintVersion; } && sleep 10 && npm run outputResume"
   },
   "author": "",
   "license": "ISC",
