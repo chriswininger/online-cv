@@ -2,7 +2,10 @@
   name: Languages and Platforms
   skills:
     - skill:
-      name: NodeJS and JavaScript
+      name: JavaScript
+      level: 98
+    - skill:
+      name: NodeJS
       level: 98
 
     - skill:

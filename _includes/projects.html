@@ -4,21 +4,23 @@
   <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
 
   {% for intro in site.data.projects %}
+  {% if (intro.description) %}
   <div class="intro">
       <p>{{ intro.description }}</p>
   </div><!--//intro-->
+  {% endif %}
   {% endfor%}
 
   {% for project in site.data.projects %}
-    <div class="item">
-
+    <ul class="item">
+      <li>
       <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
 
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
-
-    </div><!--//item-->
+      </li>
+    </ul><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
