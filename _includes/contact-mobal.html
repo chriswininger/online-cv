@@ -16,8 +16,12 @@
     {% endif %}
 
 
-    {% if site.website %}
-    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+    {% if site.website_for_pdf %}
+    <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website_for_pdf}}" target="_blank">{{site.website_for_pdf}}</a></li>
+    {% else %}
+      {% if site.website %}
+      <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website}}" target="_blank">{{site.website}}</a></li>
+      {% endif %}
     {% endif %}
   </ul>
 </div>

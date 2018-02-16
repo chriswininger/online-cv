@@ -6,8 +6,7 @@
   "scripts": {
     "buildCSS": "lessc ./assets/less/default/styles.less ./assets/less/css/styles.css && mv ./assets/less/css/styles.css ./assets/css/styles.css",
     "startPrintVersion": "JEKYLL_ENV=print-version jekyll serve",
-    "outputResume": "phantomjs ./buildScripts/phantomLoader.js",
-    "createResume": "{ npm run startPrintVersion; } && sleep 10 && npm run outputResume"
+    "buildResume": "phantomjs ./buildScripts/phantomLoader.js && mv ./resume.pdf ./assets/documents/"
   },
   "author": "",
   "license": "ISC",
