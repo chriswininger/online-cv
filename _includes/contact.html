@@ -12,8 +12,15 @@
     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
     {% endif %}
 
-    {% if site.website %}
-    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+    {% if site.data.links %}
+    {% for link in site.data.links %}
+    {% if link.envs contains jekyll.environment %}
+    <li class="website">
+      <i class="fa fa-globe"></i>
+      <a href="{{link.url}}" target="_blank">{{link.display}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
     {% endif %}
   </ul>
 </div><!--//contact-container-->

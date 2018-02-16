@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "jekyll serve",
     "buildCSS": "lessc ./assets/less/default/styles.less ./assets/less/css/styles.css && mv ./assets/less/css/styles.css ./assets/css/styles.css",
     "startPrintVersion": "JEKYLL_ENV=print-version jekyll serve",
     "buildResume": "phantomjs ./buildScripts/phantomLoader.js && mv ./resume.pdf ./assets/documents/"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "phantomjs": "^2.1.7"
-  }
+  "dependencies": {}
 }

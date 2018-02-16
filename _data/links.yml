@@ -1,0 +1,16 @@
+- link:
+  display: 'Blog'
+  url: 'https://www.wegotrats.com'
+  envs:
+    - 'development'
+    - 'print-version'
+- link:
+  display: 'Download Resume'
+  url: '/assets/documents/resume.pdf'
+  envs:
+    - 'development'
+- link:
+  display: 'Online Resume'
+  url: 'https://chriswininger.com'
+  envs:
+    - 'print-version'

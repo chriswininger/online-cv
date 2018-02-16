@@ -16,12 +16,15 @@
     {% endif %}
 
 
-    {% if site.website_for_pdf %}
-    <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website_for_pdf}}" target="_blank">{{site.website_for_pdf}}</a></li>
-    {% else %}
-      {% if site.website %}
-      <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website}}" target="_blank">{{site.website}}</a></li>
-      {% endif %}
+    {% if site.data.links %}
+    {% for link in site.data.links %}
+    {% if link.envs contains jekyll.environment %}
+    <li class="website">
+      <i class="fa fa-globe"></i>
+      <a href="{{link.url}}" target="_blank">{{link.display}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
     {% endif %}
   </ul>
 </div>
