@@ -1,5 +1,5 @@
 {% if site.data.educations %}
-<div class="education-container container-block no-desktop">
+<section class="section education-container container-block no-desktop">
 
   <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
 
@@ -7,10 +7,10 @@
     {% for education in site.data.educations %}
     <li class="item">
       <h4 class="degree">{{ education.degree }}</h4>
-      <h5 class="meta">{{ education.university }}</h5>
+      <h5 class="meta degree-location">{{ education.university }}</h5>
       <span class="time"> {{ education.time }}</span>
     </li><!--//item-->
     {% endfor %}
   </ul>
-</div>
+</section>
 {% endif %}

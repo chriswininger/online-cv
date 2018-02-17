@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "jekyll serve",
-    "buildCSS": "lessc ./assets/less/default/styles.less ./assets/less/css/styles.css && mv ./assets/less/css/styles.css ./assets/css/styles.css",
-    "startPrintVersion": "JEKYLL_ENV=print-version jekyll serve",
-    "buildResume": "phantomjs ./buildScripts/phantomLoader.js && mv ./resume.pdf ./assets/documents/"
+    "build-css-main": "lessc ./assets/less/default/styles.less ./assets/css/styles.css",
+    "build-css-pdf": "lessc ./assets/less/default/styles-pdf.less ./assets/css/styles-pdf.css",
+    "build-css": "npm run build-css-main && npm run build-css-pdf",
+    "build-resume": "concurrently \"npm run start-pdf-version\" \"npm run output-resume\"",
+    "start-pdf-version": "JEKYLL_ENV=print-version jekyll serve",
+    "output-resume": "phantomjs ./buildScripts/phantomLoader.js && mv ./resume.pdf ./assets/documents/"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
 }

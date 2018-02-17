@@ -8,7 +8,7 @@ page.viewportSize = {
 page.paperSize = {
 	format: 'A4',
 	orientation: 'portrait',
-	border: '1cm'
+	border: '0.5in'
 };
 
 page.open('http://localhost:4000', function(status) {

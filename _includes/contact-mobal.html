@@ -1,6 +1,11 @@
-<div class="contact-container container-block no-desktop">
+<section class="section contact-container container-block no-desktop">
 
+  {% if jekyll.environment == "print-version" %}
+  <h2 class="section-title"><i class="fa fa-user"></i>Online Contact Info</h2>
+  {% else %}
   <h2 class="section-title"><i class="fa fa-user"></i>Contact Info</h2>
+  {% endif %}
+
   <ul class="contact-list">
 
     {% if site.twitter %}
@@ -27,4 +32,4 @@
     {% endfor %}
     {% endif %}
   </ul>
-</div>
+</section>

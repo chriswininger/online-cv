@@ -24,14 +24,15 @@
 
 </section><!--//skills-section-->
 
-<section class="skills-section section no-screen" style="page-break-before: always;">
+<section class="skills-section section no-screen">
 
   <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
 
   <ul class="skillset-print-version">
     {% for skillGroup in site.data.skills %}
-    <li class="skill-group-name">
-      <h5>{{ skillGroup.name }}:&nbsp;</h5>
+    <li class="skill-group">
+      <h5 class="skill-group-name">{{ skillGroup.name }}:&nbsp;</h5>
+      <span class="skill-group-list">
       {% for skill in skillGroup.skills %}
       {% if skill.level >= 80 %}
       <span class="highlight">{{skill.name}}</span>{% if forloop.last == false %}, {% endif %}
@@ -39,6 +40,7 @@
       {{skill.name}}{% if forloop.last == false %}, {% endif %}
       {% endif %}
       {% endfor %}
+      </span>
     </li>
     {% endfor %}
   </ul>

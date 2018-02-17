@@ -14,10 +14,10 @@
   {% for project in site.data.projects %}
     <ul class="item">
       <li>
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
+      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a>:</span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+        <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
       </li>
     </ul><!--//item-->

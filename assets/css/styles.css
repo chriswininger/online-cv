@@ -340,8 +340,56 @@ p {
     display: none !important;
   }
 }
-/* Hide information in print version that is only for screens */
 @media print {
+  body {
+    font-size: 8pt;
+  }
+  body h4.degree,
+  body h5.skill-group-name {
+    font-size: 10pt;
+    margin-bottom: 3pt;
+    margin-top: 3pt;
+  }
+  body .degree-location {
+    font-weight: 400;
+  }
+  body .main-wrapper {
+    padding-left: 0;
+    /* reduce space between sections*/
+  }
+  body .main-wrapper h3.job-title,
+  body .main-wrapper h5.company-name {
+    display: inline;
+    font-size: 10pt;
+  }
+  body .main-wrapper h5.company-name {
+    font-weight: 400;
+  }
+  body .main-wrapper .project-title {
+    font-size: 10pt;
+    font-weight: 500;
+  }
+  body .main-wrapper span.time {
+    display: inline;
+  }
+  body .main-wrapper .projects-section .intro {
+    margin-bottom: 0;
+  }
+  body .main-wrapper .section-title {
+    margin-bottom: 3px;
+    font-size: 12pt;
+  }
+  body .main-wrapper .section-title .fa {
+    width: auto;
+    font-size: 10pt;
+  }
+  body .main-wrapper .section {
+    margin-bottom: 12pt;
+  }
+  body .main-wrapper span.skill-group-list {
+    line-height: 0;
+  }
+  /* Hide information in print version that is only for screens */
   .no-print,
   .no-print * {
     display: none !important;
@@ -351,9 +399,6 @@ p {
   }
   .skillset-print-version h5 {
     display: inline-block;
-  }
-  body {
-    font-size: 8pt;
   }
   .sidebar-wrapper .profile-container {
     width: 60%;
@@ -368,8 +413,16 @@ p {
   .sidebar-wrapper .profile-container .tagline {
     text-align: left;
   }
+  .sidebar-wrapper h1.name {
+    font-size: 12pt;
+  }
+  .sidebar-wrapper .tagline {
+    font-size: 10pt;
+    font-weight: lighter;
+  }
   .contact-sub-container {
     float: right;
+    font-style: italic;
   }
   .contact-container.container-block.no-screen {
     width: 40%;
@@ -381,18 +434,6 @@ p {
   .skillset.print-version li.item {
     margin: 0;
   }
-  .main-wrapper {
-    padding-left: 0;
-  }
-  h5.company-name {
-    display: inline;
-  }
-  h3.job-title {
-    display: inline;
-  }
-  .main-wrapper span.time {
-    display: inline;
-  }
   .education-container h2.container-block-title {
     font-size: 20px;
     font-weight: 500;
@@ -403,15 +444,5 @@ p {
   }
   .education-container h5.meta {
     display: inline;
-  }
-  /* reduce space between sections*/
-  .main-wrapper .section {
-    margin-bottom: 30px;
-  }
-  .main-wrapper .projects-section .intro {
-    margin-bottom: 0;
-  }
-  .main-wrapper .section-title {
-    margin-bottom: 3px;
   }
 }

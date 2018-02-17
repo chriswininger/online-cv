@@ -7,18 +7,23 @@
 
     <div class="meta">
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+      <div class="upper-row job-title-flex">
         {% if jekyll.environment == 'print-version' %}
-        <span class="time"> {{ experience.time }}</span>
+        <div class="job-title-cell">
+          <h3 class="job-title">{{ experience.role }}</h3>
+        </div>
+        <div class="job-title-cell">
+          <span class="time">{{ experience.time }}</span>
+        </div>
         {% else %}
+        <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
         {% endif %}
       </div><!--//upper-row-->
 
     <div class="company">
       {% if jekyll.environment == 'print-version' %}
-      <h5 class="company-name">{{ experience.company }}</h5>, {{ experience.location }}
+      <h5 class="company-name">{{ experience.company }}</h5>, <span class="experience-location">{{ experience.location }}</span>
       {% else %}
       <a href="{{ experience.link }}">{{ experience.company }}</a>, {{ experience.location }}
       {% endif %}

@@ -1,27 +1,17 @@
-/*   
- * Template Name: Orbit - Responsive Resume/CV Template for Developers
- * Version: 1.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
-*/
-/* styles-6.css */
+/*
+    just like styles.less but we'll also mix in one more special file with overrides specific to our pdf
+        print build
+ */
+/* styles.css */
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #545E6C;
+  color: #545e6c;
   background: #f5f5f5;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-        
-}
-@media (max-width: 767px) {
-    body{ 
-        padding: 0;
-    }
 }
 h1,
 h2,
@@ -32,7 +22,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2e4049;
+  color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -40,7 +30,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #10171a;
+  color: #1a454f;
 }
 a:focus {
   text-decoration: none;
@@ -49,7 +39,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4B6A78;
+  background: #42a8c0;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -58,7 +48,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4B6A78;
+  background: #42a8c0;
   position: absolute;
   right: 0;
   width: 240px;
@@ -120,6 +110,15 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
+.sidebar-wrapper .certification-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .certification-container .certification {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
 }
@@ -167,7 +166,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2e4049;
+  color: #2d7788;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -186,7 +185,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2e4049;
+  background: #2d7788;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -205,21 +204,21 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: #3f4650;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
 }
-.main-wrapper .time {
+.main-wrapper .sidebar-wrapper .time {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -248,7 +247,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #6c92a3;
+  background: #7bc2d3;
 }
 .footer {
   padding: 30px;
@@ -256,11 +255,24 @@ p {
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #545E6C;
+  color: #545e6c;
   font-size: 13px;
 }
 .footer .fa-heart {
   color: #fb866a;
+}
+/*
+    used for profile image
+*/
+.profile-img {
+  max-width: 100px;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.contact-container.no-desktop li a {
+  margin-left: 0.5em;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
@@ -279,8 +291,13 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  .no-small-mobal {
+    display: none !important;
+  }
+  .sidebar-wrapper {
+    min-height: 0px;
+  }
 }
-/* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
@@ -297,17 +314,171 @@ p {
     top: 1px;
   }
 }
-/* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
-
-/* 
-used for profile image
-*/
-.profile-img {
-  max-width: 100px;
-  margin-bottom: 15px;
-  border: 0px solid #fff;
-  border-radius: 100%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 1200px) {
+  .no-mobal {
+    display: none !important;
+  }
 }
-
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .no-desktop {
+    display: none !important;
+  }
+}
+/* Ex-Large devices (large desktops, 1200px and up) */
+/* print version management for pdf generation */
+/* Hide information shown on screen that is only for print version */
+@media screen {
+  .no-screen,
+  .no-screen * {
+    display: none !important;
+  }
+}
+@media print {
+  body {
+    font-size: 8pt;
+  }
+  body h4.degree,
+  body h5.skill-group-name {
+    font-size: 10pt;
+    margin-bottom: 3pt;
+    margin-top: 3pt;
+  }
+  body .degree-location {
+    font-weight: 400;
+  }
+  body .main-wrapper {
+    padding-left: 0;
+    /* reduce space between sections*/
+  }
+  body .main-wrapper h3.job-title,
+  body .main-wrapper h5.company-name {
+    display: inline;
+    font-size: 10pt;
+  }
+  body .main-wrapper h5.company-name {
+    font-weight: 400;
+  }
+  body .main-wrapper .project-title {
+    font-size: 10pt;
+    font-weight: 500;
+  }
+  body .main-wrapper span.time {
+    display: inline;
+  }
+  body .main-wrapper .projects-section .intro {
+    margin-bottom: 0;
+  }
+  body .main-wrapper .section-title {
+    margin-bottom: 3px;
+    font-size: 12pt;
+  }
+  body .main-wrapper .section-title .fa {
+    width: auto;
+    font-size: 10pt;
+  }
+  body .main-wrapper .section {
+    margin-bottom: 12pt;
+  }
+  body .main-wrapper span.skill-group-list {
+    line-height: 0;
+  }
+  /* Hide information in print version that is only for screens */
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+  .highlight {
+    background-color: #dddddd !important;
+  }
+  .skillset-print-version h5 {
+    display: inline-block;
+  }
+  .sidebar-wrapper .profile-container {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+  }
+  .sidebar-wrapper.print-version {
+    min-height: 0;
+  }
+  .sidebar-wrapper .profile-container .name,
+  .sidebar-wrapper .profile-container .tagline {
+    text-align: left;
+  }
+  .sidebar-wrapper h1.name {
+    font-size: 12pt;
+  }
+  .sidebar-wrapper .tagline {
+    font-size: 10pt;
+    font-weight: lighter;
+  }
+  .contact-sub-container {
+    float: right;
+    font-style: italic;
+  }
+  .contact-container.container-block.no-screen {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 0;
+  }
+  .skillset.print-version li.item {
+    margin: 0;
+  }
+  .education-container h2.container-block-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  i.fa.fa-graduation-cap {
+    margin-right: 8px;
+    width: 30px;
+  }
+  .education-container h5.meta {
+    display: inline;
+  }
+}
+@media print {
+  body {
+    /*
+      zero all these out and let phantomjs set the margins, this is better because
+        the web can't really render a bottom margin for us as it does not know about
+        pagination but phantomjs can
+   */
+    padding: 0;
+    margin: 0;
+    /*
+    section.section.certification-container {
+      page-break-before: always;
+    }*/
+  }
+  body .main-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body section.section.projects-section {
+    page-break-before: always;
+  }
+  body section.section.contact-container {
+    page-break-before: always;
+  }
+  body .job-title-flex {
+    display: flex;
+    display: -webkit-flex;
+    width: 80%;
+  }
+  body .job-title-cell {
+    width: 50%;
+  }
+  body .job-title-time-cell {
+    width: 50%;
+  }
+  body .experience-location {
+    font-style: italic;
+    font-weight: lighter;
+  }
+}

@@ -1,0 +1,48 @@
+@media print {
+
+  body {
+    /*
+      zero all these out and let phantomjs set the margins, this is better because
+        the web can't really render a bottom margin for us as it does not know about
+        pagination but phantomjs can
+   */
+    padding: 0;
+    margin: 0;
+    .main-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    section.section.projects-section {
+      page-break-before: always;
+    }
+
+    /*
+    section.section.certification-container {
+      page-break-before: always;
+    }*/
+
+    section.section.contact-container {
+      page-break-before: always;
+    }
+
+    .job-title-flex {
+      display: flex;
+      display: -webkit-flex;
+      width: 80%;
+    }
+
+    .job-title-cell {
+      width:50%;
+    }
+
+    .job-title-time-cell {
+      width:50%;
+    }
+
+    .experience-location {
+      font-style: italic;
+      font-weight: lighter;
+    }
+  }
+}
