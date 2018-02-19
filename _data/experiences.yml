@@ -2,9 +2,9 @@
   role: Lead Back-End Developer
   time: 2013 - Present
   company: airSpring Software
-  location: Lexington KY
+  location: Lexington, KY
   link: https://airspringsoftware.com/
-  details: "Chris, worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag and drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
+  details: "Chris worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag-and-drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
   acheivments:
      - title: 'Offline Storage:'
        text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
@@ -30,7 +30,7 @@
      - title: 'Performance Analysis:'
        text: 'Optimized hot JavaScript code paths and identified memory leaks in long running JavaScript applications'
 
-     - title: 'Worked Booth at the BoxWorks Conference'
+     - title: 'Worked Booth at the BoxWorks Conference:'
        text: 'Spoke with potential customers and strategic partners, giving demos and feilding questions'
 
      - title: 'Assisted with Hiring:'
@@ -46,7 +46,7 @@
   role: NodeJS Consultant
   time: 2017 - Present
   company: Infinite Industries
-  location: Lexington KY
+  location: Lexington, KY
   link: https://infinite.industries/
   details: 'Provided free consultation and development work to a local non-profit building a platform for the dissemination of cultural events' 
 
@@ -56,18 +56,18 @@
   company: Aspect Software
   location: Chelmsford, MA
   link: https://www.aspect.com/
-  details: 'Worked closely with a client in the health care sector to update and implement software solutions for the finance department, participated in regular scrums and meetings with members of the development team
-     Created custom web applications to meet the needs of the client, updated and maintained existing applications'
+  details: 'Worked closely with a client in the health care sector to update and implement software solutions for the finance department, participated in regular scrums and meetings with members of the development team,
+     created custom web applications to meet the needs of the client, and updated and maintained existing applications'
   acheivments:
 
      - title: 'Registration Application <i>(.Net web application used to handle registration in training courses)</i>:'
-       text: 'Made extensive updates to the database schema, created administrative modules, and implemented changes to the user interface to improve performance and user experience; Maintained the application, fielding bugs and performing upgrades'
+       text: 'Made extensive updates to the database schema, created administrative modules, and implemented changes to the user interface to improve performance and user experience; Maintained the application, fielded bugs and performed upgrades'
 
      - title: 'Control Documents Application <i>(MVC web application used to track supplies as they enter the dock and move through processing queues)</i>:'
        text: 'Redesigned the legacy ASP .Net 2.0 application as an MVC 3.0 application; Added new functionality and corrected bugs; Maintained SSIS packages used to integrate and merge data extracted from proprietary systems; Improved user experience by implementing client side logic including the use of AJAX calls'
 
      - title: 'RVU Application <i>(Used to track and adjust Relative Value Units against budget and expense data)</i>:'
-       text: 'Automated data imports for the system, replacing a manual processes previously carried out by IT; Rewrote portions of the application to integrate better with other Aspect products used by the client; Created administrative modules to allow the client staff to adjust application behavior and user access; Enhanced functionality, adding new new calculations and changes to the visual presentation of data'
+       text: 'Automated data imports for the system, replacing a manual processes previously carried out by IT; Rewrote portions of the application to integrate better with other Aspect products used by the client; Created administrative modules to allow the client staff to adjust application behavior and user access; Enhanced functionality, adding new calculations and changes to the visual presentation of data'
 
      - title: 'Ask A Question Application <i>(Used by staff on the clients network to ask and receive responses to questions)</i>:'
        text: 'Created tables and interfaces to implement tiered access restrictions on the system; Corrected bugs and improved interaction with the SMTP server used to deliver notifications and updates'
@@ -88,7 +88,7 @@
   role: Programmer
   time: 'November 2008 - August 2011'
   company: The Legislative Research Commission
-  location: Frankfort KY
+  location: Frankfort, KY
   link: http://www.lrc.ky.gov/
   acheivments:
      - text: 'Redesigned and implemented software for the intake and processing of phone messages while maintaining legacy support'
@@ -108,19 +108,19 @@
   role: Test Coordinator/Build Specialist
   time: 'January 2008 – October 2008'
   company: Smart IT (Contracted To Unisys)
-  location: Indianapolis IN
+  location: Indianapolis, IN
   link: https://getsmarterit.com/
   acheivments:
      - text: 'Managed code for a modular .Net application designed to handle intake, processing, storage and retrieval of data for the child welfare system in the state of Indiana'
      - text: 'Worked with Microsoft Team Foundation Server to handled the migration and building of code as it moved throughout the testing cycle'
      - text: 'Improved communication between development and testing staff and supported the tracking of solutions as they moved from developer machines into the testing code base'
-     - text: 'Worked with the quality assurance team to insure adherence to design and specification as the software system migrated through testing and production environments'
+     - text: 'Worked with the quality assurance team to ensure adherence to design and specification as the software system migrated through testing and production environments'
 
 - experience:
   role: Web Designer
   time: '2002 - 2003'
   company: The Studio by Mark A Rice
-  location: Indianapolis IN
+  location: Indianapolis, IN
   link: https://www.facebook.com/The-Studio-by-Mark-A-Rice-108960419127126
   acheivments:
      - text: 'Performed administrative duties such as purchasing the domain name and setting up the hosting service'
