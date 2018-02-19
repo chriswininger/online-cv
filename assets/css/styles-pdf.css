@@ -380,7 +380,7 @@ p {
     font-size: 10pt;
   }
   body .main-wrapper .section {
-    margin-bottom: 12pt;
+    margin-bottom: 8pt;
   }
   body .main-wrapper span.skill-group-list {
     line-height: 0;
@@ -457,6 +457,7 @@ p {
     }*/
   }
   body .main-wrapper {
+    padding-top: 20px;
     padding-left: 0;
     padding-right: 0;
   }
