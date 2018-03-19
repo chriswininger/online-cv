@@ -17,6 +17,10 @@
       level: 80
 
     - skill:
+      name: Vue
+      level: 80
+
+    - skill:
       name: Backbone
       level: 80
 
@@ -48,7 +52,7 @@
       level: 80
 
     - skill:
-      name: SQL (T-SQL, MySQL)
+      name: SQL (Postgres, T-SQL, MySQL)
       level: 70
 
 - skillGroup:
