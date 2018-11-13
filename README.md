@@ -30,3 +30,15 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
 ### Build Steps ###
 * After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
 * Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`
+
+## Build New PDF ##
+
+* build-resume DOES NOT YET WORK INSTEAD:
+* npm run start-pdf-version
+* npm run output-resume
+
+## Other Notes ##
+
+* currently working with ruby v2.4.2p198 (2017-09-14 revision 59899) and node v8.9.4
+* On System76 16.04 laptop it does build unless logged into a tmux session
+
