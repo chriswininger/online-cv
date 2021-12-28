@@ -30,3 +30,15 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
 ### Build Steps ###
 * After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
 * Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`
+
+### Docker: build
+
+`docker build ./ -t online-cv`
+
+### Docker: Start debug server
+
+`docker run --rm --name online-cv -p 4000:4000 online-cv`
+
+### Docker: Debugging
+
+`docker run --rm -it --name online-cv online-cv /bin/ba`
