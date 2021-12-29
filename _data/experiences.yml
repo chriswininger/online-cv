@@ -1,4 +1,32 @@
 - experience:
+  role: Senior Software Engineer
+  time: May 2018 - Present
+  company: Sonatype
+  location: Full Remote
+  link: https://www.sonatype.com/
+  details: >
+    Sonatype delivers solutions for businesses and individuals to build better software, offering dependency management
+    and static analysis services. Chris has worked on multiple code bases within Sonatype, driving frontend efforts as
+    well as contributing to backend services, data pipelines and infrastructure as code. Chris has worked on the
+    Automated Vulnerability Detection (AVD) team as well as the newly formed Lift team.
+  acheivments:
+    - title: 'AVD -- Client Side Modernization and Unification:'
+      text: 'As part of the AVD team Chris worked to standardize update and unify several web applications. He spoke regularly with internal end users and coordinated with a team of of developers to improve the user experience and maintainability of the software.'
+    - title: 'Vista Hackathon:'
+      text: >
+        Chris was selected to be part of a team that participated in a hackathon sponsored by the parent company Vista.
+        He helped the data science researcher with scripts for data acquisition and transformation needed to train Machine
+        Learning models and worked to produce a mock UI of the proposed features that was used during the demonstration.
+    - title: 'Lead Innovation Week Effort to Train Machine Learning Models:'
+      text: >
+        A project proposed by Chris was selected for "Innovations Week" where employees are given
+        a week to form teams and develop ideas formed from the bottom up. This project was an effort to use
+        large amounts of proprietary data amassed by the AVD team to train ML models to assist Sonatype security researchers.
+        Chris worked with participants form across Sonatype to study the feasibility of the project. The team produced a
+        several prototype models and prototype web service built around one of the models showing how it can be incorporated
+        into existing architecture. The teams finding were documented and published on internal wikis as well as through
+        recorded talks.
+- experience:
   role: Lead Back-End Developer
   time: 2013 - 2018
   company: airSpring Software
