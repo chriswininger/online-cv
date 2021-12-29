@@ -59,3 +59,8 @@ or attach to an already running instance:
 ### More Info From Theme Creator
 
 * [Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
+
+### Build Steps ###
+
+* After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
+* Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`
