@@ -5,6 +5,9 @@
       name: JavaScript
       level: 98
     - skill:
+      name: TypeScript
+      level: 98
+    - skill:
       name: NodeJS
       level: 98
 
@@ -14,11 +17,19 @@
 
     - skill:
       name: React
+      level: 90
+
+    - skill:
+      name: Java
       level: 80
 
     - skill:
+      name: Kotlin
+      level: 60
+
+    - skill:
       name: Vue
-      level: 80
+      level: 60
 
     - skill:
       name: Backbone
