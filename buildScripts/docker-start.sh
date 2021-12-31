@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 command=$1
 
@@ -75,7 +75,7 @@ elif [ "$command" = "build" ]; then
 
 # COMMAND NOT FOUND
 else
-  echo "command '$1' not found"
+  echo "command $command not found (docker-start.sh)"
   echo "   options serve, print-pdf"
   exit 1
 fi
