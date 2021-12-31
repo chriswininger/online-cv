@@ -29,6 +29,7 @@ print_command() {
 
 pushd /online-cv || exit
 
+# SERVER SITE LOCAL FOR DEBUGGING
 if [ $1 = "serve" ]; then
   print_command
 
@@ -39,6 +40,8 @@ if [ $1 = "serve" ]; then
   while true; do
     sleep 1
   done
+
+# PRINT PDF
 elif [ $1 = "print-pdf" ]; then
   print_command
 
@@ -49,6 +52,13 @@ elif [ $1 = "print-pdf" ]; then
 
   OPENSSL_CONF=/dev/null phantomjs ./buildScripts/phantomLoader.js
   cp ./resume.pdf /pdf-output/
+
+# BUILD static site to _site
+elif [ $command = "build" ]; then
+    jekyll build
+    cp -r ./_site /build-output
+
+# COMMAND NOT FOUND
 else
   echo "command '$1' not found"
   echo "   options serve, print-pdf"

@@ -2,7 +2,7 @@ from ruby:2.6.9
 ADD ./ "/online-cv"
 EXPOSE 4000
 ENTRYPOINT ["/online-cv/buildScripts/docker-start.sh"]
-VOLUME [/pdf-output]
+VOLUME [/pdf-output, /build-output]
 
 # ==== SETUP =====
 #RUN apt update

@@ -60,6 +60,10 @@ or attach to an already running instance:
 
 * [Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
 
+### Other interesting info
+
+There is a jekyll build command which publishes the static site to _site
+
 ### Build Steps ###
 
 * After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
