@@ -6,13 +6,24 @@ using netlify.
 
 It is built using Jekyll along with a theme designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 
+### Deployment
+
+This site is hosted via (netlify)[https://www.netlify.com]. Netlify is configured to watch the main branch of this
+repository and perform a deployment each time a change is pushed.
+
+To perform the build it executes the docker-build_image_and_build_site script which builds a docker image based on the
+current state of the repo. This image is then executed with the build command producing the statically built site under
+./docker-build-output/_site. This directory is the directory which is served.
+
 ### Dependencies
 
-1. ruby@2.6.9
-2. phatomjs
-3. lessc
-4. node/npm: Much of this may go away as it was mostly used to orchestrate building, though we'll still need lessc
-5. docker
+1. Docker (This is really all you should need now, the docker image should handle debug serving and builds) 
+2. ruby@2.6.9
+3. phatomjs
+4. lessc
+5. node/npm: Much of this may go away as it was mostly used to orchestrate building, though we'll still need lessc
+
+
 
 ### Building
 
@@ -22,6 +33,15 @@ so going forward this project will be managed through docker.
 At this time the docker scripts are pretty close, but they still likely need to invoke the lessc command and copy css
 files to assets and there should probably be a way to update and push new versions of the pdf to assets without manual
 interventions.
+
+* To do a full build production style run `./docker-build_image_and_build_site.sh`
+  * Check for output under `docker-builds-output/_site`
+
+### About `./docker-print_pdf`
+
+This script can be used to update the pdf checked into assets/documents/resume.pdf. It used to be necessary to manually update this
+and check it into source control. That is no longer the chase though as the docker build process will update this inside
+the image making sure the static output has the current version.
 
 ### Build Steps ###
 
