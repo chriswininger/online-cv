@@ -6,6 +6,12 @@ using netlify.
 
 It is built using Jekyll along with a theme designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 
+
+### Building
+
+* Run `./docker-build_image_and_build_site.sh`
+  * Check for output under `docker-builds-output/_site`
+
 ### Deployment
 
 This site is hosted via (netlify)[https://www.netlify.com]. Netlify is configured to watch the main branch of this
@@ -24,20 +30,6 @@ Check `./docker-build-output/_site` into source control and push. This should up
 3. phatomjs
 4. lessc
 5. node/npm: Much of this may go away as it was mostly used to orchestrate building, though we'll still need lessc
-
-
-
-### Building
-
-This is in progress, see Docker sections below. The ruby and gem versions this is pinned to are quite old and hard to update
-so going forward this project will be managed through docker.
-
-At this time the docker scripts are pretty close, but they still likely need to invoke the lessc command and copy css
-files to assets and there should probably be a way to update and push new versions of the pdf to assets without manual
-interventions.
-
-* To do a full build production style run `./docker-build_image_and_build_site.sh`
-  * Check for output under `docker-builds-output/_site`
 
 ### About `./docker-print_pdf`
 
@@ -91,7 +83,13 @@ or attach to an already running instance:
 
 There is a jekyll build command which publishes the static site to _site
 
-### Build Steps ###
+### Editing the text
 
-* After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
-* Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`
+Most of the text is driven by data in yml files. Look at _cofig.yml. Also look under _data for any yml file there
+
+Css can be updated by editing files in assets/less
+
+Changes to the overall template including logic regarding what items are hidden or changed for the various environments,
+print, web, etc is in the html files
+
+The main things not to edit directly are the contents of _site directories as this will be replaced
