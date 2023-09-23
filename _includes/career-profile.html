@@ -1,11 +1,13 @@
 {% if site.summary %}
 <section class="section summary-section">
 
+  {% if jekyll.environment != 'print-version' %}
   <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+  {% endif %}
 
-    <div class="summary">
-      <p>{{ site.summary }}</p>
-    </div><!--//summary-->
+  <div class="summary">
+    <p>{{ site.summary }}</p>
+  </div><!--//summary-->
     
 </section><!--//section-->
 {% endif %}

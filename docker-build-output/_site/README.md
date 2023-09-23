@@ -53,7 +53,7 @@ anymore as we are handling the build in docker. It does not need to be checked i
 
 ### Docker: Start debug server
 
-`docker run --rm --name online-cv -p 4000:4000 online-cv`
+`docker run --rm --name online-cv -p 4000:4000 online-cv serve`
 
 ### Docker: Debugging
 
