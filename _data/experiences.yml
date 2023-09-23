@@ -7,9 +7,22 @@
   details: >
     Sonatype delivers solutions for businesses and individuals to build better software, offering dependency management
     and static analysis services. Chris has worked on multiple code bases within Sonatype, driving frontend efforts as
-    well as contributing to backend services, data pipelines and infrastructure as code. Chris has worked on the
-    Automated Vulnerability Detection (AVD) team as well as the newly formed Lift team.
-  acheivments:
+    well as contributing to backend services, data pipelines and infrastructure as code. Chris has worked on many teams
+    and projects as a Sr Software Engineer and Team Lead.
+  achievements:
+    - title: 'Lift -- Bringing Sonatype SaaS to Small Development Teams'
+      text: >
+        Lift was a company effort to develop a product more suitable for small teams and open source
+        organizations. It offered many of the capabilities or our traditional enterprise offerings as well as new static
+        analysis features geared towards developers. As team leader Chris worked closely with design and project management
+        to scope new features and shape the product direction. Chris was one of the primary developers of the frontend
+        and also contributed to the refinement of the underlying static analysis pipeline and backend APIs.
+
+        <a
+          href="https://youtu.be/xgwD_ImUDNo?si=r4hwxKGMvxYrJA8m"
+          rel="noopener noreferrer"
+          target="_blank"
+        >Self Recorded Demo</a>
     - title: 'AVD -- Client Side Modernization and Unification:'
       text: 'As part of the AVD team Chris worked to standardize update and unify several web applications. He spoke regularly with internal end users and coordinated with a team of of developers to improve the user experience and maintainability of the software.'
     - title: 'Vista Hackathon:'
@@ -26,6 +39,22 @@
         several prototype models and prototype web service built around one of the models showing how it can be incorporated
         into existing architecture. The teams finding were documented and published on internal wikis as well as through
         recorded talks.
+
+- experience:
+  role: Technical Lead
+  time: 2017 - Present
+  company: Infinite Industries
+  location: Lexington, KY
+  link: https://infinite.industries/
+  details: >
+    Infinite Industries is a Lexington KY based non-profit founded by
+    <a rel="noopener noreferrer" target="_blank" href="https://shiftingplanes.org/">Dima Strakovsky</a>
+    Infinite Industries works to promote local art and cultural events in Lexington and surrounding areas.
+    Chris has been donating time and technical services to Infinite Industries since it's inception. Chris designed the
+    architecture of the web application, chose the technology stack, helped build the production delivery pipeline, and
+    participates in regular maintenance and feature work for the application. He has helped onboard multiple new
+    contributors all of whom have shaped and enriched the project.
+
 - experience:
   role: Lead Back-End Developer
   time: 2013 - 2018
@@ -33,7 +62,7 @@
   location: Lexington, KY
   link: https://airspringsoftware.com/
   details: "Chris worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag-and-drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
-  acheivments:
+  achievements:
      - title: 'Offline Storage:'
        text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
 
@@ -71,14 +100,6 @@
        text: 'Provided internal documentation for the features and processes I worked on'
 
 - experience:
-  role: NodeJS Consultant
-  time: 2017 - Present
-  company: Infinite Industries
-  location: Lexington, KY
-  link: https://infinite.industries/
-  details: 'Provided free consultation and development work to a local non-profit building a platform for the dissemination of cultural events'
-
-- experience:
   role: Senior Developer
   time: 2011 - November 2013
   company: Aspect Software
@@ -86,7 +107,7 @@
   link: https://www.aspect.com/
   details: 'Worked closely with a client in the health care sector to update and implement software solutions for the finance department, participated in regular scrums and meetings with members of the development team,
      created custom web applications to meet the needs of the client, and updated and maintained existing applications'
-  acheivments:
+  achievements:
 
      - title: 'Registration Application <i>(.Net web application used to handle registration in training courses)</i>:'
        text: 'Made extensive updates to the database schema, created administrative modules, and implemented changes to the user interface to improve performance and user experience; Maintained the application, fielded bugs and performed upgrades'
@@ -118,7 +139,7 @@
   company: The Legislative Research Commission
   location: Frankfort, KY
   link: http://www.lrc.ky.gov/
-  acheivments:
+  achievements:
      - text: 'Redesigned and implemented software for the intake and processing of phone messages while maintaining legacy support'
      - text: 'Worked with a team on the design, implementation, testing, and deployment of a tiered system for the drafting and management of bills as they move through the legislative process'
      - text: 'Implemented an API to rapidly convert between documents stored in Rich Text format and our own proprietary document format based on Open XML'
@@ -138,7 +159,7 @@
   company: Smart IT (Contracted To Unisys)
   location: Indianapolis, IN
   link: https://getsmarterit.com/
-  acheivments:
+  achievements:
      - text: 'Managed code for a modular .Net application designed to handle intake, processing, storage and retrieval of data for the child welfare system in the state of Indiana'
      - text: 'Worked with Microsoft Team Foundation Server to handled the migration and building of code as it moved throughout the testing cycle'
      - text: 'Improved communication between development and testing staff and supported the tracking of solutions as they moved from developer machines into the testing code base'
@@ -150,7 +171,7 @@
   company: The Studio by Mark A Rice
   location: Indianapolis, IN
   link: https://www.facebook.com/The-Studio-by-Mark-A-Rice-108960419127126
-  acheivments:
+  achievements:
      - text: 'Performed administrative duties such as purchasing the domain name and setting up the hosting service'
      - text: 'Designed and built a website to advertise services of the studio'
      - text: 'Maintained and updated the website over several months'

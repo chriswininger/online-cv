@@ -1,0 +1,220 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) { 
+    
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+    }
+    
+    .main-wrapper {
+        padding: 30px;
+    }
+    
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    .main-wrapper .upper-row {
+        margin-bottom: 0;
+    }
+
+
+    .no-small-mobal {
+        display: none !important;
+    }
+
+    .sidebar-wrapper {
+        min-height: 0px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    .skillset .level-title {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    
+    .skillset .level-bar {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        position: relative;
+        top: 1px;
+    }
+    
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 1200px) {
+    .no-mobal {
+        display: none !important;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .no-desktop {
+        display: none !important;
+    }
+}
+
+
+/* Ex-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    
+}
+
+/* print version management for pdf generation */
+/* Hide information shown on screen that is only for print version */
+@media screen {
+    .no-screen, .no-screen * {
+        display: none !important;
+    }
+}
+
+@media print {
+    body {
+        font-size: 8pt;
+
+        h4.degree, h5.skill-group-name {
+            font-size: 10pt;
+            margin-bottom: 3pt;
+            margin-top: 3pt;
+        }
+
+        .degree-location {
+            font-weight: 400;
+        }
+
+        .main-wrapper {
+            padding-left: 0;
+
+            h3.job-title, h5.company-name {
+                display: inline;
+                font-size: 10pt;
+            }
+
+            h5.company-name {
+                font-weight: 400;
+            }
+
+            .project-title {
+                font-size: 10pt;
+                font-weight: 500;
+            }
+
+            span.time {
+                display: inline;
+            }
+
+            .projects-section {
+                .intro {
+                    margin-bottom: 0;
+                }
+            }
+
+            .section-title {
+                margin-bottom: 3px;
+                font-size: 12pt;
+
+                .fa {
+                    width: auto;
+                    font-size: 10pt;
+                }
+            }
+
+            /* reduce space between sections*/
+            .section {
+                margin-bottom: 8pt;
+            }
+
+            span.skill-group-list {
+                line-height: 0;
+            }
+        }
+    }
+
+    /* Hide information in print version that is only for screens */
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    .highlight {
+        background-color: #dddddd !important;
+    }
+
+    .skillset-print-version h5 {
+        display: inline-block;
+    }
+
+    .sidebar-wrapper .profile-container {
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+    }
+
+    .sidebar-wrapper.print-version {
+        min-height: 0;
+    }
+
+    .sidebar-wrapper {
+        .profile-container {
+            .name, .tagline {
+                text-align: left;
+            }
+        }
+
+        h1.name {
+            font-size: 12pt
+        }
+
+        .tagline {
+            font-size: 10pt;
+            font-weight: lighter;
+        }
+    }
+
+    .contact-sub-container {
+        float: right;
+        font-style: italic;
+    }
+
+    .contact-container.container-block.no-screen {
+        width: 40%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding-right: 0;
+    }
+
+    .skillset.print-version li.item {
+        margin: 0;
+    }
+
+    .education-container h2.container-block-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    i.fa.fa-graduation-cap {
+        margin-right: 8px;
+        width: 30px;
+    }
+
+    .education-container h5.meta {
+        display: inline;
+    }
+}
