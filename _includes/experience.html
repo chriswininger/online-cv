@@ -3,6 +3,7 @@
   <h2 class="section-title"><i class="fa fa-briefcase"></i>Experience</h2>
 
 {% for experience in site.data.experiences %}
+  {% if jekyll.environment != 'print-version' or experience.excludeFromPrint != true %}
   <div class="item">
 
     <div class="meta">
@@ -46,6 +47,7 @@
 	 </div>
 
 	</div><!--//item-->
+  {% endif %}
 {% endfor %}
 
 </section><!--//section-->
