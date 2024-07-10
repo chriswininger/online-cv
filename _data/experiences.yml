@@ -5,10 +5,14 @@
   location: Full Remote
   link: https://www.sonatype.com/
   details: >
-    Sonatype helps businesses build better software by offering dependency management
-    and static analysis services. Chris has worked on multiple code bases within Sonatype, driving frontend efforts as
-    well as contributing to backend services, data pipelines and infrastructure as code. He has worked on many teams
-    and projects as a Sr Software Engineer and Team Lead.
+    <p>
+    Sonatype helps companies build better software, offering dependency management and risk reduction services.
+    </p>
+    
+    <p>
+    As Sr Software Engineer and Team Lead, Chris has contributed to multiple code bases, working on the frontend,
+    backend, data pipelines and infrastructure as code.
+    </b>
   achievements:
     - title: 'Lift -- Bringing Sonatype SaaS to Small Development Teams'
       text: >
@@ -42,22 +46,6 @@
   excludeFromPrint: false
 
 - experience:
-  role: Technical Lead
-  time: 2017 - Present
-  company: Infinite Industries
-  location: Lexington, KY
-  link: https://infinite.industries/
-  details: >
-    Infinite Industries is a Lexington KY based non-profit founded by
-    <a rel="noopener noreferrer" target="_blank" href="https://shiftingplanes.org/">Dima Strakovsky</a>
-    Infinite Industries works to promote local art and cultural events in Lexington and surrounding areas.
-    Chris has been donating time and technical services to Infinite Industries since it's inception. Chris designed the
-    architecture of the web application, chose the technology stack, helped build the production delivery pipeline, and
-    participates in regular maintenance and feature work for the application. He has helped onboard multiple new
-    contributors all of whom have shaped and enriched the project.
-  excludeFromPrint: false
-
-- experience:
   role: Lead Back-End Developer
   time: 2013 - 2018
   company: airSpring Software
@@ -65,41 +53,41 @@
   link: https://airspringsoftware.com/
   details: "Chris worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag-and-drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
   achievements:
-     - title: 'Offline Storage:'
-       text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
+    - title: 'Offline Storage:'
+      text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
 
-     - title: 'Database Storage:'
-       text: 'Worked on persistence mechanisms, helping to create and implement the architecture used to track changes, serialize and transmit deltas to the server, and convert requests into MongoDB operations'
+    - title: 'Database Storage:'
+      text: 'Worked on persistence mechanisms, helping to create and implement the architecture used to track changes, serialize and transmit deltas to the server, and convert requests into MongoDB operations'
 
-     - title: 'Multi-Server Deployment Process:'
-       text: 'Helped develop application packaging and deployment processes including server pool management functionality involving server to server communication'
+    - title: 'Multi-Server Deployment Process:'
+      text: 'Helped develop application packaging and deployment processes including server pool management functionality involving server to server communication'
 
-     - title: 'Process Management:'
-       text: 'Created a module for managing an arbitrary number of child processes communicating over ZeroMQ to support isolation of blocking tasks'      
+    - title: 'Process Management:'
+      text: 'Created a module for managing an arbitrary number of child processes communicating over ZeroMQ to support isolation of blocking tasks'
 
-     - title: 'API Design Features:'
-       text: 'Implemented both the back-end and initial user interface for airSpring’s Web API Builder allowing customers to design web APIs, which leverage pre-built actions as well as allow customers to supply custom functions'
+    - title: 'API Design Features:'
+      text: 'Implemented both the back-end and initial user interface for airSpring’s Web API Builder allowing customers to design web APIs, which leverage pre-built actions as well as allow customers to supply custom functions'
 
-     - title: 'Authentication and Access Control:'
-       text: 'Developed much of the authentication and access control code handling integrations for SAML, LDAP, and Google Auth (also handles token based auth for api end points)'
+    - title: 'Authentication and Access Control:'
+      text: 'Developed much of the authentication and access control code handling integrations for SAML, LDAP, and Google Auth (also handles token based auth for api end points)'
 
-     - title: 'Maintenance and Bug Fixing:'
-       text: 'Resolved concurrency issues and race conditions in highly asynchronous multi-process distributed code paths'
+    - title: 'Maintenance and Bug Fixing:'
+      text: 'Resolved concurrency issues and race conditions in highly asynchronous multi-process distributed code paths'
 
-     - title: 'Performance Analysis:'
-       text: 'Optimized hot JavaScript code paths and identified memory leaks in long running JavaScript applications'
+    - title: 'Performance Analysis:'
+      text: 'Optimized hot JavaScript code paths and identified memory leaks in long running JavaScript applications'
 
-     - title: 'Worked Booth at the BoxWorks Conference:'
-       text: 'Spoke with potential customers and strategic partners, giving demos and feilding questions'
+    - title: 'Worked Booth at the BoxWorks Conference:'
+      text: 'Spoke with potential customers and strategic partners, giving demos and feilding questions'
 
-     - title: 'Assisted with Hiring:'
-       text: 'Conducted technical interviews and participated in selection of new developers'
+    - title: 'Assisted with Hiring:'
+      text: 'Conducted technical interviews and participated in selection of new developers'
 
-     - title: 'Training:'
-       text: 'Gave technical talks and feature demonstrations to team members and assisted in bringing new developers up to speed with code base'
+    - title: 'Training:'
+      text: 'Gave technical talks and feature demonstrations to team members and assisted in bringing new developers up to speed with code base'
 
-     - title: 'Documentation:'
-       text: 'Provided internal documentation for the features and processes I worked on'
+    - title: 'Documentation:'
+      text: 'Provided internal documentation for the features and processes I worked on'
   excludeFromPrint: false
 
 - experience:

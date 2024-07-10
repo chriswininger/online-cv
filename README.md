@@ -61,18 +61,32 @@ or
 
 ### Docker: Debugging
 
-start attached to a bash session:
+```
+docker run --rm \
+   --name online-cv \
+   -p 4000:4000 \
+   -it \
+   --user $(id -u):$(id -g) \
+   --entrypoint=/bin/bash \
+   -v /home/chris/projects/online-cv:/online-cv \
+   -v /home/chris/online-cv-pdf-output:/pdf-output online-cv
+```
 
-`docker run --rm -it --name online-cv online-cv /bin/ba`
+now run `jekyll serve --host 0.0.0.0`
 
-or attach to an already running instance:
+for print `JEKYLL_ENV=print-version jekyll serve --host 0.0.0.0`
+
+then turn on print media simulation
+
+![img.png](img.png)
+
+### attach to an already running instance:
 
 `docker exec -it online-cv /bin/bash`
 
 ### Docker: Serve local debug server
 
 `docker run --rm --name online-cv -p 4000:4000 -v /home/chris/online-cv-pdf-output:/pdf-output online-cv serve`
-`
 
 ### Docker: Run phantomjs to make pdf
 

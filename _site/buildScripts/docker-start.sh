@@ -58,6 +58,7 @@ if [ "$command" = "serve" ]; then
   while true; do
     sleep 1
   done
+<<<<<<< HEAD
 elif [ "$command" = "serve-print" ]; then
   print_command
 
@@ -68,6 +69,8 @@ elif [ "$command" = "serve-print" ]; then
     while true; do
       sleep 1
     done
+=======
+>>>>>>> 57fdb8e (Squashed commit of the following:)
 
 # PRINT PDF
 elif [ "$command" = "print-pdf" ]; then
@@ -86,6 +89,10 @@ elif [ "$command" = "build" ]; then
 # COMMAND NOT FOUND
 else
   echo "command $command not found (docker-start.sh)"
+<<<<<<< HEAD
   echo "   options serve, serve-print, print-pdf"
+=======
+  echo "   options serve, print-pdf"
+>>>>>>> 57fdb8e (Squashed commit of the following:)
   exit 1
 fi

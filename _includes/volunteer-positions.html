@@ -1,0 +1,52 @@
+{% if site.data.volunteer-positions %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Volunteer Positions</h2>
+
+  {% for experience in site.data.volunteer-positions %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row job-title-flex">
+        {% if jekyll.environment == 'print-version' %}
+        <div class="job-title-cell">
+          <h3 class="job-title">{{ experience.role }}</h3>
+        </div>
+        <div class="job-title-cell">
+          <span class="time">{{ experience.time }}</span>
+        </div>
+        {% else %}
+        <h3 class="job-title">{{ experience.role }}</h3>
+        <div class="time">{{ experience.time }}</div>
+        {% endif %}
+      </div><!--//upper-row-->
+
+      <div class="company">
+        {% if jekyll.environment == 'print-version' %}
+        <h5 class="company-name">{{ experience.company }}</h5>, <span class="experience-location">{{ experience.location }}</span>
+        {% else %}
+        <a  rel="noopener noreferrer" target="_blank" href="{{ experience.link }}">{{ experience.company }}</a>, {{ experience.location }}
+        {% endif %}
+      </div>
+
+    </div><!--//meta-->
+
+    {% if experience.details %}
+    <div class="details">
+      <p>{{ experience.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+
+    <div call="details">
+      <ul>
+        {% for task in experience.achievements %}
+        <li><u>{{ task.title}}</u> {{ task.text }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

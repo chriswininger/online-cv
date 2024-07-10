@@ -58,6 +58,16 @@ if [ "$command" = "serve" ]; then
   while true; do
     sleep 1
   done
+elif [ "$command" = "serve-print" ]; then
+  print_command
+
+  spawn_jekyll_server_in_background "print-version"
+
+    # work around to allow docker to get cttrl-c and exit (if we just run jekyll, even in foreground it does not get ctrl-c passed)
+    trap ctrl_c INT
+    while true; do
+      sleep 1
+    done
 
 # PRINT PDF
 elif [ "$command" = "print-pdf" ]; then
@@ -76,6 +86,6 @@ elif [ "$command" = "build" ]; then
 # COMMAND NOT FOUND
 else
   echo "command $command not found (docker-start.sh)"
-  echo "   options serve, print-pdf"
+  echo "   options serve, serve-print, print-pdf"
   exit 1
 fi
