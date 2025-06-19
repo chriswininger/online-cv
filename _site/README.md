@@ -53,7 +53,6 @@ anymore as we are handling the build in docker. It does not need to be checked i
 
 ### Docker: Start debug server
 
-<<<<<<< HEAD
 `./docker-serve-live-update.sh serve`
 
 or
@@ -61,14 +60,6 @@ or
 `./docker-serve-live-update.sh serve-print`
 
 ### Docker: Debugging
-
-start attached to a bash session:
-
-`docker run --rm -it --name online-cv online-cv /bin/ba`
-
-or attach to an already running instance:
-=======
-start attached to a bash session:
 
 ```
 docker run --rm \
@@ -90,17 +81,12 @@ then turn on print media simulation
 ![img.png](img.png)
 
 ### attach to an already running instance:
->>>>>>> 57fdb8e (Squashed commit of the following:)
 
 `docker exec -it online-cv /bin/bash`
 
 ### Docker: Serve local debug server
 
 `docker run --rm --name online-cv -p 4000:4000 -v /home/chris/online-cv-pdf-output:/pdf-output online-cv serve`
-<<<<<<< HEAD
-`
-=======
->>>>>>> 57fdb8e (Squashed commit of the following:)
 
 ### Docker: Run phantomjs to make pdf
 

@@ -2,30 +2,32 @@
   name: Languages and Platforms
   skills:
     - skill:
-      name: JavaScript
+      name: JavaScript/TypeScript
       level: 98
-    - skill:
-      name: TypeScript
-      level: 98
-    - skill:
-      name: NodeJS
-      level: 98
-
-    - skill:
-      name: HTML & CSS
-      level: 90
 
     - skill:
       name: React
-      level: 90
+      level: 97
 
     - skill:
       name: Java
-      level: 80
+      level: 96
 
     - skill:
       name: Kotlin
-      level: 80
+      level: 90
+
+    - skill:
+      name: NodeJS
+      level: 90
+
+    - skill:
+      name: HTML & CSS
+      level: 70
+
+    - skil:
+      name: Python
+      level: 60
 
     - skill:
       name: Vue
@@ -33,7 +35,7 @@
 
     - skill:
       name: Backbone
-      level: 80
+      level: 40
 
     - skill:
       name: Angular
@@ -41,7 +43,7 @@
 
     - skill:
       name: C#.Net / MVC
-      level: 80
+      level: 50
 
     - skill:
       name: C/C++
@@ -53,6 +55,10 @@
 
     - skill:
       name: Scheme
+      level: 20
+
+    - skil:
+      name: Haskell
       level: 30
 
 - skillGroup:
@@ -97,11 +103,11 @@
   skills:
     - skill:
       name: Apache
-      level: 60
+      level: 40
 
     - skill:
       name: nginx
-      level: 60
+      level: 50
 
     - skill:
       name: Linux Admin
@@ -109,4 +115,20 @@
 
     - skill:
       name: Docker
-      level: 60
+      level: 70
+
+    - skill:
+      name: Terraform
+      level: 30
+
+    - skill:
+      name: kubernetes
+      level: 30
+
+    - skill:
+      name: AWS
+      level: 30
+
+    - skill:
+      name: Github Actions
+      level: 30
