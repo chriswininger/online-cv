@@ -12,12 +12,12 @@
     <p>
     As Sr Software Engineer and Team Lead, Chris has contributed to multiple code bases, working on the frontend,
     backend, data pipelines and infrastructure as code.
-    </b>
+    </p>
   achievements:
     - title: 'Lift -- Bringing Sonatype SaaS to Small Development Teams'
       text: >
         Lift was a company effort to develop a product more suitable for small teams and open source
-        organizations. It offered many of the capabilities or our traditional enterprise offerings as well as new static
+        organizations. It offered many of the capabilities of our traditional enterprise offerings as well as new static
         analysis features geared towards developers. As team leader Chris worked closely with design and project management
         to scope new features and shape the product direction. Chris was one of the primary developers of the frontend
         and also contributed to the refinement of the underlying static analysis pipeline and backend APIs.
@@ -28,7 +28,7 @@
           target="_blank"
         >Self Recorded Demo</a>
     - title: 'AVD -- Client Side Modernization and Unification:'
-      text: 'As part of the AVD team Chris worked to standardize update and unify several web applications. He spoke regularly with internal end users and coordinated with a team of of developers to improve the user experience and maintainability of the software.'
+      text: 'As part of the AVD team Chris worked to standardize, update, and unify several web applications. He spoke regularly with internal end users and coordinated with a team of developers to improve the user experience and maintainability of the software.'
     - title: 'Vista Hackathon:'
       text: >
         Chris was selected to be part of a team that participated in a hackathon sponsored by the parent company Vista.
@@ -39,9 +39,9 @@
         A project proposed by Chris was selected for "Innovations Week" where employees are given
         a week to form teams and develop ideas formed from the bottom up. This project was an effort to use
         large amounts of proprietary data amassed by the AVD team to train ML models to assist Sonatype security researchers.
-        Chris worked with participants form across Sonatype to study the feasibility of the project. The team produced a
+        Chris worked with participants from across Sonatype to study the feasibility of the project. The team produced
         several prototype models and prototype web service built around one of the models showing how it can be incorporated
-        into existing architecture. The teams finding were documented and published on internal wikis as well as through
+        into existing architecture. The team's findings were documented and published on internal wikis as well as through
         recorded talks.
   excludeFromPrint: false
 
@@ -51,10 +51,10 @@
   company: airSpring Software
   location: Lexington, KY
   link: https://airspringsoftware.com/
-  details: "Chris worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in house developers to rapidly build dynamic web applications using a low-code drag-and-drop interface. Chris lead development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
+  details: "Chris worked with 16 other developers on a large NodeJS application called airSpring. AirSpring is a web application which allows customers and in-house developers to rapidly build dynamic web applications using a low-code drag-and-drop interface. Chris led development efforts on back-end web services, developing and maintaining several NodeJS applications. His role began as a senior developer and grew to include administrative tasks such as performing interviews and representing the company at conferences."
   achievements:
     - title: 'Offline Storage:'
-      text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexDB, and Socket.io)'
+      text: 'Designed and implemented storage and synchronization mechanism allowing applications developed on the airSpring platform to function offline (used Application Cache, LocalStorage, IndexedDB, and Socket.io)'
 
     - title: 'Database Storage:'
       text: 'Worked on persistence mechanisms, helping to create and implement the architecture used to track changes, serialize and transmit deltas to the server, and convert requests into MongoDB operations'
@@ -78,7 +78,7 @@
       text: 'Optimized hot JavaScript code paths and identified memory leaks in long running JavaScript applications'
 
     - title: 'Worked Booth at the BoxWorks Conference:'
-      text: 'Spoke with potential customers and strategic partners, giving demos and feilding questions'
+      text: 'Spoke with potential customers and strategic partners, giving demos and fielding questions'
 
     - title: 'Assisted with Hiring:'
       text: 'Conducted technical interviews and participated in selection of new developers'
@@ -87,7 +87,7 @@
       text: 'Gave technical talks and feature demonstrations to team members and assisted in bringing new developers up to speed with code base'
 
     - title: 'Documentation:'
-      text: 'Provided internal documentation for the features and processes I worked on'
+      text: 'Provided internal documentation for features and processes'
   excludeFromPrint: false
 
 - experience:
@@ -107,14 +107,14 @@
        text: 'Redesigned the legacy ASP .Net 2.0 application as an MVC 3.0 application; Added new functionality and corrected bugs; Maintained SSIS packages used to integrate and merge data extracted from proprietary systems; Improved user experience by implementing client side logic including the use of AJAX calls'
 
      - title: 'RVU Application <i>(Used to track and adjust Relative Value Units against budget and expense data)</i>:'
-       text: 'Automated data imports for the system, replacing a manual processes previously carried out by IT; Rewrote portions of the application to integrate better with other Aspect products used by the client; Created administrative modules to allow the client staff to adjust application behavior and user access; Enhanced functionality, adding new calculations and changes to the visual presentation of data'
+       text: 'Automated data imports for the system, replacing manual processes previously carried out by IT; Rewrote portions of the application to integrate better with other Aspect products used by the client; Created administrative modules to allow the client staff to adjust application behavior and user access; Enhanced functionality, adding new calculations and changes to the visual presentation of data'
 
-     - title: 'Ask A Question Application <i>(Used by staff on the clients network to ask and receive responses to questions)</i>:'
+     - title: "Ask A Question Application <i>(Used by staff on the client's network to ask and receive responses to questions)</i>:"
        text: 'Created tables and interfaces to implement tiered access restrictions on the system; Corrected bugs and improved interaction with the SMTP server used to deliver notifications and updates'
 
      - title: 'Capital Request SharePoint Feature <i>(A SharePoint 2007 solution used to handle Capital Equipment acquisition requests)</i>:'
-       text: 'Created an InfoPath form with multiple views and code behind; Wrote web services to facilitate communication with other Aspect products; Designed web features to create the necessary lists, content types, site columns, and associations on the clients SharePoint site; Created a process to convert legacy data to the new format; Created Nintex work flows to handle item level security and deliver e-mail update'
-     
+       text: "Created an InfoPath form with multiple views and code behind; Wrote web services to facilitate communication with other Aspect products; Designed web features to create the necessary lists, content types, site columns, and associations on the client's SharePoint site; Created a process to convert legacy data to the new format; Created Nintex work flows to handle item level security and deliver e-mail updates"
+
      - title: 'Budget Exception and Budget Adjustment Forms <i>(SharePoint 2007 web feature used to submit information regarding exceptions to the budget)</i>:'
        text: 'Created InfoPath form and necessary code behind; Created web feature, web services, and implemented work flows using Nintex workflows'
 
@@ -154,7 +154,7 @@
   link: https://getsmarterit.com/
   achievements:
      - text: 'Managed code for a modular .Net application designed to handle intake, processing, storage and retrieval of data for the child welfare system in the state of Indiana'
-     - text: 'Worked with Microsoft Team Foundation Server to handled the migration and building of code as it moved throughout the testing cycle'
+     - text: 'Worked with Microsoft Team Foundation Server to handle the migration and building of code as it moved throughout the testing cycle'
      - text: 'Improved communication between development and testing staff and supported the tracking of solutions as they moved from developer machines into the testing code base'
      - text: 'Worked with the quality assurance team to ensure adherence to design and specification as the software system migrated through testing and production environments'
   excludeFromPrint: false
