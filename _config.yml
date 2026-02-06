@@ -36,7 +36,7 @@ encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
-    envs: developmentp
+    envs: development
 
 # exclude:
 #    - Gemfile

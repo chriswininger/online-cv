@@ -26,6 +26,7 @@ spawn_jekyll_server_in_background() {
   else
     jekyll serve --host 0.0.0.0&
   fi
+  JEKYLL_PID=$!
 }
 
 print_command() {
@@ -43,6 +44,10 @@ update_pdf() {
     OPENSSL_CONF=/dev/null phantomjs ./buildScripts/phantomLoader.js
     cp ./resume.pdf /pdf-output/
     cp ./resume.pdf ./assets/documents/
+
+    echo "stopping background jekyll server"
+    kill "$JEKYLL_PID" 2>/dev/null
+    wait "$JEKYLL_PID" 2>/dev/null
 }
 
 pushd /online-cv || exit
@@ -80,7 +85,7 @@ elif [ "$command" = "build" ]; then
     # make sure the pdf is up to date
     update_pdf
 
-    jekyll build
+    JEKYLL_ENV=production jekyll build
     cp -r ./_site /build-output
 
 # COMMAND NOT FOUND

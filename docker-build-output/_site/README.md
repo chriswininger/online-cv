@@ -12,6 +12,28 @@ It is built using Jekyll along with a theme designed by Xiaoying Riley at [3rd W
 * Run `./docker-build_image_and_build_site.sh`
   * Check for output under `docker-builds-output/_site`
 
+### Build Steps ###
+
+* After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
+* Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`
+
+### Site Build
+
+`./docker-build_image_and_build_site.sh` or just `./docker-build_static_site.sh` if the image has already been built
+
+After running this, commit the changes to `docker-build-output` and push to the main branch. Netlify will make these
+changes live.
+
+*Note:* This will include an auto-generated resume. You may want to replace it with your hand rolled resume. You can do
+this by updating `docker-build-output/_site/assets/documents/resume.pdf` and `docker-build-output/_site/resume.pdf` before
+pushing
+
+### Docker: build
+
+This builds the container we use
+
+`docker build ./ -t online-cv`
+
 ### Deployment
 
 This site is hosted via (Netlify)[https://www.netlify.com]. Netlify is configured to watch the main branch of this
@@ -21,7 +43,7 @@ Netlify does now expose docker so instead of having it do our build we run the `
 locally which builds a docker image based on the current state of the repo. This image is then executed with the build
 command producing the statically built site under `./docker-build-output/_site`.
 
-Check `./docker-build-output/_site` into source control and push. This should update the site through netlify.
+Check `./docker-build-output/_site` into source control and push. This should update the site through Netlify.
 
 ### Dependencies
 
@@ -41,15 +63,6 @@ the image making sure the static output has the current version.
 
 This is where Jekyll would but the build output if the host was used to run `./jekyll build`. This is not really used
 anymore as we are handling the build in docker. It does not need to be checked in and can be deleted if present.
-
-### Build Steps ###
-
-* After changes css less files run `lessc ./assets/less/default/styles.less ./assets/less/css/styles.css`
-* Followed by `mv ./assets/less/css/styles.css ./assets/css/styles.css`
-
-### Docker: build
-
-`docker build ./ -t online-cv`
 
 ### Docker: Start debug server
 
