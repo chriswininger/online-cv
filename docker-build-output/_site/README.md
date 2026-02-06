@@ -26,7 +26,7 @@ changes live.
 
 *Note:* This will include an auto-generated resume. You may want to replace it with your hand rolled resume. You can do
 this by updating `docker-build-output/_site/assets/documents/resume.pdf` and `docker-build-output/_site/resume.pdf` before
-pushing
+pushing. I created a utility to help with this, `./overwrite_pdf.sh ~/Nextcloud/chris-wininger-resume-2026-feb-websafe.pdf `
 
 ### Docker: build
 

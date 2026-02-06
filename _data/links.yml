@@ -4,11 +4,13 @@
   envs:
     - 'development'
     - 'print-version'
+    - 'production'
 - link:
   display: 'Download Resume'
   url: '/assets/documents/resume.pdf'
   envs:
     - 'development'
+    - 'production'
 - link:
   display: 'Online Resume'
   url: 'https://chriswininger.com'
