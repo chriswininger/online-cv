@@ -16,4 +16,9 @@
 - project:
   title: Fong Tron
   link: 'https://youtu.be/LXOyiwt92iI'
-  tagline: 'A multi-user interactive soundscape presented at The Living Arts and Science Center based on the Fong Phone application. The user interface from my Phong Phone app was wrapped by a web socket layer and served to touch devices allowing each user to control different aspects of the sound and visual display on a large screen'
+  tagline: 'A multi-user interactive soundscape presented at The Living Arts and Science Center based on the Fong Phone application. The user interface from my Fong Phone app was wrapped by a web socket layer and served to touch devices allowing each user to control different aspects of the sound and visual display on a large screen'
+
+- project:
+  title: AI Document Query System
+  link: https://github.com/chriswininger/ai-document-query-system
+  tagline: 'This is an experiment with context engineering, exploring the use of LLMs with small context windows to query large documents locally, in a resource constrained environment'
