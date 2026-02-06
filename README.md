@@ -1,8 +1,8 @@
 Chris Wininger Online CV/Resume
 ==================================
 
-This is the repo I used to generate my online resume along with a pdf version. It is currenlty hosted at chriswininger.com
-using netlify.
+This is the repo I used to generate my online resume along with a pdf version. It is currently hosted at chriswininger.com
+using Netlify.
 
 It is built using Jekyll along with a theme designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 
@@ -14,7 +14,7 @@ It is built using Jekyll along with a theme designed by Xiaoying Riley at [3rd W
 
 ### Deployment
 
-This site is hosted via (netlify)[https://www.netlify.com]. Netlify is configured to watch the main branch of this
+This site is hosted via (Netlify)[https://www.netlify.com]. Netlify is configured to watch the main branch of this
 repository and perform a deployment each time a change is pushed.
 
 Netlify does now expose docker so instead of having it do our build we run the `./docker-build_image_and_build_site` script
@@ -39,7 +39,7 @@ the image making sure the static output has the current version.
 
 ### About `./_site`
 
-This is where jekyll would but the build output if the host was used to run `./jekyll build`. This is not really used
+This is where Jekyll would but the build output if the host was used to run `./jekyll build`. This is not really used
 anymore as we are handling the build in docker. It does not need to be checked in and can be deleted if present.
 
 ### Build Steps ###
@@ -99,13 +99,13 @@ then turn on print media simulation
 
 ### Other interesting info
 
-There is a jekyll build command which publishes the static site to _site
+There is a Jekyll build command which publishes the static site to _site
 
 ### Editing the text
 
 Most of the text is driven by data in yml files. Look at _cofig.yml. Also look under _data for any yml file there
 
-Css can be updated by editing files in assets/less
+CSS can be updated by editing files in assets/less
 
 Changes to the overall template including logic regarding what items are hidden or changed for the various environments,
 print, web, etc is in the html files

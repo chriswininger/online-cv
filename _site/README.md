@@ -39,7 +39,7 @@ the image making sure the static output has the current version.
 
 ### About `./_site`
 
-This is where jekyll would but the build output if the host was used to run `./jekyll build`. This is not really used
+This is where Jekyll would but the build output if the host was used to run `./jekyll build`. This is not really used
 anymore as we are handling the build in docker. It does not need to be checked in and can be deleted if present.
 
 ### Build Steps ###
