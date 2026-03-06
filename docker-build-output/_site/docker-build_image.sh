@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build ./ -t online-cv
+docker build --platform linux/amd64 ./ -t online-cv
 
